@@ -1,0 +1,601 @@
+Order_ID,Order_Date,Customer_ID,Customer_Name,State,Region_Raw,Region,Product_ID,Product_Name,Fabric_Type,Quantity_Meters_Raw,Quantity_Meters,Unit_Price,Discount_Percent,Gross_Amount,Sales_Amount_Raw,Sales_Amount_Expected,Sales_Match,Order_Status_Raw,Order_Status,Payment_Method_Raw,Payment_Method,Order_Month,Order_Quarter,Order_Year
+ORDX00001,12/15/2026,C107,Coastal Cotton Co,Kerala,South,South,TX204,Rayon Flex,Rayon,305,305,232,3,70760,68637.2,68637.2,Match,Shipped,Shipped,Credit,Credit,Dec,Q4,2026
+ORDX00002,11/27/2026,C103,LoomCraft India,Karnataka,South,South,TX207,Poly Viscose,Viscose,493,493,220,15,108460,92191,92191,Match,Shipped,Shipped,Cash,Cash,Nov,Q4,2026
+ORDX00003,9/15/2026,C106,Royal Weave Traders,Gujarat,West,West,TX205,Linen Touch,Linen Blend,378,378,404,5,152712,145076.4,145076.4,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Sep,Q3,2026
+ORDX00004,11/10/2026,C105,Northern Apparel Works,Delhi,North,North,TX201,Organic Cotton,Cotton,56,56,221,8,12376,11385.92,11385.92,Match,Delivered,Delivered,Cash,Cash,Nov,Q4,2026
+ORDX00005,7/7/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX210,Matte Polyester,Polyester,224,224,184,10,41216,37094.4,37094.4,Match,Shipped,Shipped,Bank Transfer,Bank Transfer,Jul,Q3,2026
+ORDX00006,11/16/2026,C107,Coastal Cotton Co,Kerala,South,South,TX204,Rayon Flex,Rayon,539,539,229,3,123431,119728.07,119728.07,Match,Shipped,Shipped,Wallet,Wallet,Nov,Q4,2026
+ORDX00007,10/1/2026,C109,Odisha Style Mills,Odisha,East,East,TX207,Poly Viscose,Viscose,422,422,227,0,95794,95794,95794,Match,Delivered,Delivered,Credit,Credit,Oct,Q4,2026
+ORDX00008,2/22/2026,C109,Odisha Style Mills,Odisha,East,East,TX210,Matte Polyester,Polyester,374,374,184,5,68816,65375.2,65375.2,Match,Shipped,Shipped,Bank Transfer,Bank Transfer,Feb,Q1,2026
+ORDX00009,7/25/2026,C108,Punjab Cloth Market,Punjab,North,North,TX203,Premium Denim,Denim,115,115,342,5,39330,37363.5,37363.5,Match,Shipped,Shipped,credit,Credit,Jul,Q3,2026
+ORDX00010,4/16/2026,C106,Royal Weave Traders,Gujarat,West,West,TX206,Silk Fusion,Silk Blend,511,511,612,12,312732,275204.16,275204.16,Match,Processing,Processing,Credit,Credit,Apr,Q2,2026
+ORDX00011,9/27/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX204,Rayon Flex,Rayon,305,305,238,15,72590,61701.5,61701.5,Match,Delivered,Delivered,UPI,UPI,Sep,Q3,2026
+ORDX00012,7/27/2026,C108,Punjab Cloth Market,Punjab,North,North,TX205,Linen Touch,Linen Blend,372,372,395,12,146940,129307.2,129307.2,Match,Shipped,Shipped,UPI,UPI,Jul,Q3,2026
+ORDX00013,6/6/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX209,Workwear Poly,Poly Cotton,49,49,190,8,9310,8565.2,8565.2,Match,Delivered,Delivered,UPI,UPI,Jun,Q2,2026
+ORDX00014,5/16/2026,C108,Punjab Cloth Market,Punjab,North,North,TX201,Organic Cotton,Cotton,506,506,220,12,111320,97961.6,97961.6,Match,Delivered,Delivered,Cash,Cash,May,Q2,2026
+ORDX00015,9/18/2026,C103,LoomCraft India,Karnataka,South,South,TX201,Organic Cotton,Cotton,524,524,235,12,123140,108363.2,108363.2,Match,Delivered,Delivered,UPI,UPI,Sep,Q3,2026
+ORDX00016,2/2/2026,C108,Punjab Cloth Market,Punjab,North,North,TX202,Printed Cambric,Printed Cotton,82,82,267,12,21894,19266.72,19266.72,Match,Shipped,Shipped,Wallet,Wallet,Feb,Q1,2026
+ORDX00017,8/2/2026,C103,LoomCraft India,Karnataka,South,South,TX208,Athleisure Knit,Cotton Lycra,581,581,282,0,163842,163842,163842,Match,Delivered,Delivered,Cash,Cash,Aug,Q3,2026
+ORDX00018,8/6/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX205,Linen Touch,Linen Blend,537,537,388,12,208356,183353.28,183353.28,Match,Delivered,Delivered,UPI,UPI,Aug,Q3,2026
+ORDX00019,6/28/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX210,Matte Polyester,Polyester,609,609,176,15,107184,91106.4,91106.4,Match,Delivered,Delivered,Wallet,Wallet,Jun,Q2,2026
+ORDX00020,8/19/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX205,Linen Touch,Linen Blend,689,689,403,3,277667,269336.99,269336.99,Match,Delivered,Delivered,Cash,Cash,Aug,Q3,2026
+ORDX00021,10/11/2026,C103,LoomCraft India,Karnataka,South,South,TX206,Silk Fusion,Silk Blend,612,612,607,2,371484,364054.32,364054.32,Match,Delivered,Delivered,Wallet,Wallet,Oct,Q4,2026
+ORDX00022,10/13/2026,C106,Royal Weave Traders,Gujarat,West,West,TX204,Rayon Flex,Rayon,365,365,250,15,91250,77562.5,77562.5,Match,Delivered,Delivered,UPI,UPI,Oct,Q4,2026
+ORDX00023,10/10/2026,C107,Coastal Cotton Co,Kerala,South,South,TX201,Organic Cotton,Cotton,667,667,222,5,148074,140670.3,140670.3,Match,Processing,Processing,Cash,Cash,Oct,Q4,2026
+ORDX00024,8/13/2026,C109,Odisha Style Mills,Odisha,East,East,TX205,Linen Touch,Linen Blend,268,268,398,5,106664,101330.8,101330.8,Match,Cancelled,Cancelled,UPI,UPI,Aug,Q3,2026
+ORDX00025,11/14/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX201,Organic Cotton,Cotton,531,531,229,2,121599,119167.02,119167.02,Match,Delivered,Delivered,Credit,Credit,Nov,Q4,2026
+ORDX00026,4/11/2026,C103,LoomCraft India,Karnataka,South,South,TX201,Organic Cotton,Cotton,659,659,226,15,148934,126593.9,126593.9,Match,Delivered,Delivered,Credit,Credit,Apr,Q2,2026
+ORDX00027,12/9/2026,C102,Metro Fabric House,Maharashtra,West,West,TX206,Silk Fusion,Silk Blend,259,259,613,0,158767,158767,158767,Match,Shipped,Shipped,Wallet,Wallet,Dec,Q4,2026
+ORDX00028,6/9/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX210,Matte Polyester,Polyester,450,450,173,12,77850,68508,68508,Match,Delivered,Delivered,Cash,Cash,Jun,Q2,2026
+ORDX00029,10/7/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX206,Silk Fusion,Silk Blend,644,644,616,10,396704,357033.6,357033.6,Match,Delivered,Delivered,UPI,UPI,Oct,Q4,2026
+ORDX00030,12/15/2026,C109,Odisha Style Mills,Odisha,East,East,TX206,Silk Fusion,Silk Blend,694,694,621,5,430974,409425.3,409425.3,Match,Delivered,Delivered,Credit,Credit,Dec,Q4,2026
+ORDX00031,5/28/2026,C103,LoomCraft India,Karnataka,South,South,TX203,Premium Denim,Denim,523,523,332,0,173636,173636,173636,Match,Delivered,Delivered,Credit,Credit,May,Q2,2026
+ORDX00032,9/24/2026,C108,Punjab Cloth Market,Punjab,North,North,TX201,Organic Cotton,Cotton,507,507,232,2,117624,115271.52,115271.52,Match,Delivered,Delivered,Credit,Credit,Sep,Q3,2026
+ORDX00033,9/9/2026,C103,LoomCraft India,Karnataka,South,South,TX207,Poly Viscose,Viscose,178,178,215,2,38270,37504.6,37504.6,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Sep,Q3,2026
+ORDX00034,10/31/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX202,Printed Cambric,Printed Cotton,288,288,249,5,71712,68126.4,68126.4,Match,Cancelled,Cancelled,Cash,Cash,Oct,Q4,2026
+ORDX00035,8/21/2026,C107,Coastal Cotton Co,Kerala,South,South,TX209,Workwear Poly,Poly Cotton,133,133,205,3,27265,26447.05,26447.05,Match,Processing,Processing,Bank Transfer,Bank Transfer,Aug,Q3,2026
+ORDX00036,4/30/2026,C108,Punjab Cloth Market,Punjab,North,North,TX206,Silk Fusion,Silk Blend,662,662,611,3,404482,392347.54,392347.54,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Apr,Q2,2026
+ORDX00037,4/9/2026,C103,LoomCraft India,Karnataka,South,South,TX209,Workwear Poly,Poly Cotton,187,187,207,8,38709,35612.28,35612.28,Match,Delivered,Delivered,Credit,Credit,Apr,Q2,2026
+ORDX00038,6/12/2026,C102,Metro Fabric House,Maharashtra,West,West,TX206,Silk Fusion,Silk Blend,195,195,595,5,116025,110223.75,110223.75,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Jun,Q2,2026
+ORDX00039,5/15/2026,C108,Punjab Cloth Market,Punjab,North,North,TX208,Athleisure Knit,Cotton Lycra,229,229,280,0,64120,64120,64120,Match,Delivered,Delivered,Cash,Cash,May,Q2,2026
+ORDX00040,1/22/2026,C103,LoomCraft India,Karnataka,South,South,TX206,Silk Fusion,Silk Blend,72,72,607,10,43704,39333.6,39333.6,Match,Delivered,Delivered,Cash,Cash,Jan,Q1,2026
+ORDX00041,10/4/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX202,Printed Cambric,Printed Cotton,643,643,259,5,166537,158210.15,158210.15,Match,Delivered,Delivered,Wallet,Wallet,Oct,Q4,2026
+ORDX00042,1/4/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX203,Premium Denim,Denim,581,581,341,15,198121,168402.85,168402.85,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Jan,Q1,2026
+ORDX00043,1/6/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX205,Linen Touch,Linen Blend,133,133,383,5,50939,48392.05,48392.05,Match,Returned,Returned,Wallet,Wallet,Jan,Q1,2026
+ORDX00044,4/5/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX205,Linen Touch,Linen Blend,133,133,375,5,49875,47381.25,47381.25,Match,Delivered,Delivered,Wallet,Wallet,Apr,Q2,2026
+ORDX00045,6/10/2026,C105,Northern Apparel Works,Delhi,North,North,TX207,Poly Viscose,Viscose,290,290,217,3,62930,61042.1,61042.1,Match,Delivered,Delivered,Credit,Credit,Jun,Q2,2026
+ORDX00046,6/23/2026,C103,LoomCraft India,Karnataka,South,South,TX208,Athleisure Knit,Cotton Lycra,660,660,294,15,194040,164934,164934,Match,Returned,Returned,Credit,Credit,Jun,Q2,2026
+ORDX00047,9/30/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX210,Matte Polyester,Polyester,138,138,178,0,24564,24564,24564,Match,Shipped,Shipped,Wallet,Wallet,Sep,Q3,2026
+ORDX00048,1/26/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX207,Poly Viscose,Viscose,442,442,227,8,100334,92307.28,92307.28,Match,Delivered,Delivered,UPI,UPI,Jan,Q1,2026
+ORDX00049,11/17/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX204,Rayon Flex,Rayon,546,546,240,10,131040,117936,117936,Match,Delivered,Delivered,Cash,Cash,Nov,Q4,2026
+ORDX00050,11/18/2026,C107,Coastal Cotton Co,Kerala,South,South,TX202,Printed Cambric,Printed Cotton,85,85,270,0,22950,22950,22950,Match,Delivered,Delivered,Wallet,Wallet,Nov,Q4,2026
+ORDX00051,2/27/2026,C106,Royal Weave Traders,Gujarat,West,West,TX210,Matte Polyester,Polyester,376,376,189,0,71064,71064,71064,Match,Delivered,Delivered,Cash,Cash,Feb,Q1,2026
+ORDX00052,9/21/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX205,Linen Touch,Linen Blend,87,87,386,5,33582,31902.9,31902.9,Match,Returned,Returned,Bank Transfer,Bank Transfer,Sep,Q3,2026
+ORDX00053,12/16/2026,C106,Royal Weave Traders,Gujarat,West,West,TX204,Rayon Flex,Rayon,81,81,247,3,20007,19406.79,19406.79,Match,Delivered,Delivered,Wallet,Wallet,Dec,Q4,2026
+ORDX00054,6/7/2026,C102,Metro Fabric House,Maharashtra,West,West,TX210,Matte Polyester,Polyester,693,693,193,0,133749,133749,133749,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Jun,Q2,2026
+ORDX00055,12/12/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX207,Poly Viscose,Viscose,508,508,229,8,116332,107025.44,107025.44,Match,Processing,Processing,UPI,UPI,Dec,Q4,2026
+ORDX00056,5/9/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX205,Linen Touch,Linen Blend,92,92,375,2,34500,33810,33810,Match,Delivered,Delivered,UPI,UPI,May,Q2,2026
+ORDX00057,9/29/2026,C108,Punjab Cloth Market,Punjab,North,North,TX205,Linen Touch,Linen Blend,223,223,405,12,90315,79477.2,79477.2,Match,Delivered,Delivered,Wallet,Wallet,Sep,Q3,2026
+ORDX00058,3/17/2026,C107,Coastal Cotton Co,Kerala,South,South,TX203,Premium Denim,Denim,188,188,343,15,64484,54811.4,54811.4,Match,Processing,Processing,UPI,UPI,Mar,Q1,2026
+ORDX00059,2/16/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX205,Linen Touch,Linen Blend,128,128,404,10,51712,46540.8,46540.8,Match,Shipped,Shipped,Bank Transfer,Bank Transfer,Feb,Q1,2026
+ORDX00060,12/7/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX210,Matte Polyester,Polyester,585,585,170,5,99450,94477.5,94477.5,Match,Delivered,Delivered,Wallet,Wallet,Dec,Q4,2026
+ORDX00061,1/10/2026,C107,Coastal Cotton Co,Kerala,South,South,TX210,Matte Polyester,Polyester,134,134,189,2,25326,24819.48,24819.48,Match,Delivered,Delivered,Credit,Credit,Jan,Q1,2026
+ORDX00062,4/6/2026,C103,LoomCraft India,Karnataka,South,South,TX210,Matte Polyester,Polyester,359,359,173,8,62107,57138.44,57138.44,Match,Shipped,Shipped,Credit,Credit,Apr,Q2,2026
+ORDX00063,6/1/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX204,Rayon Flex,Rayon,414,414,225,0,93150,93150,93150,Match,Processing,Processing,Cash,Cash,Jun,Q2,2026
+ORDX00064,3/6/2026,C105,Northern Apparel Works,Delhi,North,North,TX203,Premium Denim,Denim,451,451,334,15,150634,128038.9,128038.9,Match,Delivered,Delivered,Wallet,Wallet,Mar,Q1,2026
+ORDX00065,9/10/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX202,Printed Cambric,Printed Cotton,533,533,247,2,131651,129017.98,129017.98,Match,Delivered,Delivered,Credit,Credit,Sep,Q3,2026
+ORDX00066,3/31/2026,C108,Punjab Cloth Market,Punjab,North,North,TX210,Matte Polyester,Polyester,452,452,178,3,80456,78042.32,78042.32,Match,Delivered,Delivered,Credit,Credit,Mar,Q1,2026
+ORDX00067,3/16/2026,C105,Northern Apparel Works,Delhi,North,North,TX202,Printed Cambric,Printed Cotton,447,447,248,15,110856,94227.6,94227.6,Match,Delivered,Delivered,Wallet,Wallet,Mar,Q1,2026
+ORDX00068,12/23/2026,C109,Odisha Style Mills,Odisha,East,East,TX204,Rayon Flex,Rayon,491,491,227,15,111457,94738.45,94738.45,Match,Returned,Returned,Bank Transfer,Bank Transfer,Dec,Q4,2026
+ORDX00069,4/6/2026,C102,Metro Fabric House,Maharashtra,West,West,TX201,Organic Cotton,Cotton,698,698,239,12,166822,146803.36,146803.36,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Apr,Q2,2026
+ORDX00070,1/13/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX207,Poly Viscose,Viscose,313,313,202,0,63226,63226,63226,Match,Delivered,Delivered,UPI,UPI,Jan,Q1,2026
+ORDX00071,8/5/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX204,Rayon Flex,Rayon,376,376,251,8,94376,86825.92,86825.92,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Aug,Q3,2026
+ORDX00072,3/17/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX209,Workwear Poly,Poly Cotton,299,299,217,12,64883,57097.04,57097.04,Match,Returned,Returned,Bank Transfer,Bank Transfer,Mar,Q1,2026
+ORDX00073,5/24/2026,C103,LoomCraft India,Karnataka,South,South,TX210,Matte Polyester,Polyester,103,103,181,3,18643,18083.71,18083.71,Match,Delivered,Delivered,Cash,Cash,May,Q2,2026
+ORDX00074,2/22/2026,C105,Northern Apparel Works,Delhi,North,North,TX204,Rayon Flex,Rayon,185,185,249,15,46065,39155.25,39155.25,Match,Delivered,Delivered,Wallet,Wallet,Feb,Q1,2026
+ORDX00075,8/11/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX210,Matte Polyester,Polyester,668,668,172,8,114896,105704.32,105704.32,Match,Cancelled,Cancelled,Cash,Cash,Aug,Q3,2026
+ORDX00076,8/27/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX202,Printed Cambric,Printed Cotton,622,622,254,0,157988,157988,157988,Match,Processing,Processing,UPI,UPI,Aug,Q3,2026
+ORDX00077,6/23/2026,C106,Royal Weave Traders,Gujarat,West,West,TX207,Poly Viscose,Viscose,687,687,209,15,143583,122045.55,122045.55,Match,Delivered,Delivered,Cash,Cash,Jun,Q2,2026
+ORDX00078,1/5/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX202,Printed Cambric,Printed Cotton,63,63,250,8,15750,14490,14490,Match,Returned,Returned,wallet,Wallet,Jan,Q1,2026
+ORDX00079,5/25/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX206,Silk Fusion,Silk Blend,545,545,619,12,337355,296872.4,296872.4,Match,Shipped,Shipped,Bank Transfer,Bank Transfer,May,Q2,2026
+ORDX00080,12/30/2026,C106,Royal Weave Traders,Gujarat,West,West,TX203,Premium Denim,Denim,216,216,351,12,75816,66718.08,66718.08,Match,Delivered,Delivered,Cash,Cash,Dec,Q4,2026
+ORDX00081,6/22/2026,C107,Coastal Cotton Co,Kerala,South,South,TX203,Premium Denim,Denim,687,687,352,2,241824,236987.52,236987.52,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Jun,Q2,2026
+ORDX00082,11/13/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX208,Athleisure Knit,Cotton Lycra,395,395,280,12,110600,97328,97328,Match,Shipped,Shipped,Bank Transfer,Bank Transfer,Nov,Q4,2026
+ORDX00083,11/8/2026,C109,Odisha Style Mills,Odisha,East,East,TX201,Organic Cotton,Cotton,151,151,235,10,35485,31936.5,31936.5,Match,Delivered,Delivered,Wallet,Wallet,Nov,Q4,2026
+ORDX00084,8/1/2026,C105,Northern Apparel Works,Delhi,North,North,TX206,Silk Fusion,Silk Blend,237,237,599,5,141963,134864.85,134864.85,Match,Delivered,Delivered,Cash,Cash,Aug,Q3,2026
+ORDX00085,2/16/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX209,Workwear Poly,Poly Cotton,267,267,203,0,54201,54201,54201,Match,Delivered,Delivered,UPI,UPI,Feb,Q1,2026
+ORDX00086,9/16/2026,C105,Northern Apparel Works,Delhi,North,North,TX206,Silk Fusion,Silk Blend,690,690,619,12,427110,375856.8,375856.8,Match,Cancelled,Cancelled,Credit,Credit,Sep,Q3,2026
+ORDX00087,6/5/2026,C108,Punjab Cloth Market,Punjab,North,North,TX206,Silk Fusion,Silk Blend,407,407,620,15,252340,214489,214489,Match,Delivered,Delivered,Credit,Credit,Jun,Q2,2026
+ORDX00088,11/12/2026,C108,Punjab Cloth Market,Punjab,North,North,TX210,Matte Polyester,Polyester,212,212,197,5,41764,39675.8,39675.8,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Nov,Q4,2026
+ORDX00089,5/25/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX206,Silk Fusion,Silk Blend,235,235,615,0,144525,144525,144525,Match,Processing,Processing,Bank Transfer,Bank Transfer,May,Q2,2026
+ORDX00090,3/23/2026,C103,LoomCraft India,Karnataka,South,South,TX206,Silk Fusion,Silk Blend,290,290,609,8,176610,162481.2,162481.2,Match,Cancelled,Cancelled,Credit,Credit,Mar,Q1,2026
+ORDX00091,9/8/2026,C108,Punjab Cloth Market,Punjab,North,North,TX202,Printed Cambric,Printed Cotton,39,39,268,12,10452,9197.76,9197.76,Match,Delivered,Delivered,UPI,UPI,Sep,Q3,2026
+ORDX00092,9/24/2026,C102,Metro Fabric House,Maharashtra,West,West,TX201,Organic Cotton,Cotton,316,316,234,12,73944,65070.72,65070.72,Match,Returned,Returned,Cash,Cash,Sep,Q3,2026
+ORDX00093,4/8/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX201,Organic Cotton,Cotton,139,139,240,3,33360,32359.2,32359.2,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Apr,Q2,2026
+ORDX00094,12/17/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX205,Linen Touch,Linen Blend,679,679,377,10,255983,230384.7,230384.7,Match,Delivered,Delivered,Wallet,Wallet,Dec,Q4,2026
+ORDX00095,7/21/2026,C105,Northern Apparel Works,Delhi,North,North,TX205,Linen Touch,Linen Blend,492,492,391,3,192372,186600.84,186600.84,Match,Delivered,Delivered,UPI,UPI,Jul,Q3,2026
+ORDX00096,6/22/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX203,Premium Denim,Denim,480,480,341,0,163680,163680,163680,Match,Processing,Processing,Credit,Credit,Jun,Q2,2026
+ORDX00097,2/8/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX208,Athleisure Knit,Cotton Lycra,188,188,281,2,52828,51771.44,51771.44,Match,Delivered,Delivered,Cash,Cash,Feb,Q1,2026
+ORDX00098,9/25/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX202,Printed Cambric,Printed Cotton,88,88,249,5,21912,20816.4,20816.4,Match,Delivered,Delivered,Cash,Cash,Sep,Q3,2026
+ORDX00099,4/22/2026,C109,Odisha Style Mills,Odisha,East,East,TX201,Organic Cotton,Cotton,337,337,224,12,75488,66429.44,66429.44,Match,Processing,Processing,Credit,Credit,Apr,Q2,2026
+ORDX00100,4/13/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX203,Premium Denim,Denim,456,456,352,15,160512,136435.2,136435.2,Match,Returned,Returned,Credit,Credit,Apr,Q2,2026
+ORDX00101,10/13/2026,C102,Metro Fabric House,Maharashtra,West,West,TX202,Printed Cambric,Printed Cotton,369,369,263,3,97047,94135.59,94135.59,Match,Cancelled,Cancelled,Bank Transfer,Bank Transfer,Oct,Q4,2026
+ORDX00102,12/1/2026,C109,Odisha Style Mills,Odisha,East,East,TX206,Silk Fusion,Silk Blend,576,576,604,12,347904,306155.52,306155.52,Match,Processing,Processing,Wallet,Wallet,Dec,Q4,2026
+ORDX00103,7/3/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX210,Matte Polyester,Polyester,435,435,186,2,80910,79291.8,79291.8,Match,Delivered,Delivered,Wallet,Wallet,Jul,Q3,2026
+ORDX00104,2/22/2026,C102,Metro Fabric House,Maharashtra,West,West,TX206,Silk Fusion,Silk Blend,484,484,624,8,302016,277854.72,277854.72,Match,Shipped,Shipped,Cash,Cash,Feb,Q1,2026
+ORDX00105,5/31/2026,C103,LoomCraft India,Karnataka,South,South,TX209,Workwear Poly,Poly Cotton,217,217,220,15,47740,40579,40579,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,May,Q2,2026
+ORDX00106,7/3/2026,C108,Punjab Cloth Market,Punjab,North,North,TX204,Rayon Flex,Rayon,315,315,227,3,71505,69359.85,69359.85,Match,Delivered,Delivered,Credit,Credit,Jul,Q3,2026
+ORDX00107,10/4/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX203,Premium Denim,Denim,39,39,352,2,13728,13453.44,13453.44,Match,Delivered,Delivered,Wallet,Wallet,Oct,Q4,2026
+ORDX00108,5/13/2026,C106,Royal Weave Traders,Gujarat,West,West,TX201,Organic Cotton,Cotton,267,267,235,5,62745,59607.75,59607.75,Match,Cancelled,Cancelled,UPI,UPI,May,Q2,2026
+ORDX00109,10/9/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX209,Workwear Poly,Poly Cotton,283,283,214,12,60562,53294.56,53294.56,Match,Shipped,Shipped,Cash,Cash,Oct,Q4,2026
+ORDX00110,10/19/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX210,Matte Polyester,Polyester,291,291,186,15,54126,46007.1,46007.1,Match,Shipped,Shipped,Bank Transfer,Bank Transfer,Oct,Q4,2026
+ORDX00111,1/14/2026,C108,Punjab Cloth Market,Punjab,North,North,TX206,Silk Fusion,Silk Blend,508,508,617,5,313436,297764.2,297764.2,Match,Delivered,Delivered,Credit,Credit,Jan,Q1,2026
+ORDX00112,1/7/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX208,Athleisure Knit,Cotton Lycra,37,37,302,12,11174,9833.12,9833.12,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Jan,Q1,2026
+ORDX00113,10/21/2026,C102,Metro Fabric House,Maharashtra,West,West,TX210,Matte Polyester,Polyester,49,49,194,15,9506,8080.1,8080.1,Match,Shipped,Shipped,Bank Transfer,Bank Transfer,Oct,Q4,2026
+ORDX00114,9/30/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX207,Poly Viscose,Viscose,265,265,225,10,59625,53662.5,53662.5,Match,Delivered,Delivered,UPI,UPI,Sep,Q3,2026
+ORDX00115,1/25/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX204,Rayon Flex,Rayon,614,614,227,2,139378,136590.44,136590.44,Match,Shipped,Shipped,Credit,Credit,Jan,Q1,2026
+ORDX00116,2/3/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX206,Silk Fusion,Silk Blend,657,657,602,15,395514,336186.9,336186.9,Match,Delivered,Delivered,Cash,Cash,Feb,Q1,2026
+ORDX00117,4/11/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX209,Workwear Poly,Poly Cotton,552,552,215,5,118680,112746,112746,Match,Shipped,Shipped,cash,Cash,Apr,Q2,2026
+ORDX00118,8/17/2026,C108,Punjab Cloth Market,Punjab,North,North,TX206,Silk Fusion,Silk Blend,411,411,615,0,252765,252765,252765,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Aug,Q3,2026
+ORDX00119,11/7/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX208,Athleisure Knit,Cotton Lycra,171,171,282,12,48222,42435.36,42435.36,Match,Delivered,Delivered,Wallet,Wallet,Nov,Q4,2026
+ORDX00120,8/11/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX208,Athleisure Knit,Cotton Lycra,40,40,299,2,11960,11720.8,11720.8,Match,Returned,Returned,Bank Transfer,Bank Transfer,Aug,Q3,2026
+ORDX00121,4/4/2026,C106,Royal Weave Traders,Gujarat,West,West,TX206,Silk Fusion,Silk Blend,538,538,613,10,329794,296814.6,296814.6,Match,Processing,Processing,Credit,Credit,Apr,Q2,2026
+ORDX00122,1/26/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX208,Athleisure Knit,Cotton Lycra,469,469,291,8,136479,125560.68,125560.68,Match,Delivered,Delivered,Credit,Credit,Jan,Q1,2026
+ORDX00123,10/2/2026,C106,Royal Weave Traders,Gujarat,West,West,TX204,Rayon Flex,Rayon,259,259,241,5,62419,59298.05,59298.05,Match,Delivered,Delivered,UPI,UPI,Oct,Q4,2026
+ORDX00124,10/20/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX206,Silk Fusion,Silk Blend,173,173,598,12,103454,91039.52,91039.52,Match,Delivered,Delivered,Cash,Cash,Oct,Q4,2026
+ORDX00125,6/27/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX206,Silk Fusion,Silk Blend,44,44,617,8,27148,24976.16,24976.16,Match,Delivered,Delivered,Credit,Credit,Jun,Q2,2026
+ORDX00126,3/25/2026,C108,Punjab Cloth Market,Punjab,North,North,TX202,Printed Cambric,Printed Cotton,355,355,249,12,88395,77787.6,77787.6,Match,Delivered,Delivered,UPI,UPI,Mar,Q1,2026
+ORDX00127,2/7/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX208,Athleisure Knit,Cotton Lycra,453,453,310,10,140430,126387,126387,Match,Cancelled,Cancelled,Bank Transfer,Bank Transfer,Feb,Q1,2026
+ORDX00128,11/30/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX202,Printed Cambric,Printed Cotton,410,410,253,3,103730,100618.1,100618.1,Match,Delivered,Delivered,Cash,Cash,Nov,Q4,2026
+ORDX00129,10/23/2026,C103,LoomCraft India,Karnataka,South,South,TX201,Organic Cotton,Cotton,354,354,237,10,83898,75508.2,75508.2,Match,Processing,Processing,Cash,Cash,Oct,Q4,2026
+ORDX00130,9/27/2026,C109,Odisha Style Mills,Odisha,East,East,TX205,Linen Touch,Linen Blend,325,325,379,8,123175,113321,113321,Match,Processing,Processing,Cash,Cash,Sep,Q3,2026
+ORDX00131,3/30/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX204,Rayon Flex,Rayon,76,76,242,0,18392,18392,18392,Match,Processing,Processing,Cash,Cash,Mar,Q1,2026
+ORDX00132,1/23/2026,C106,Royal Weave Traders,Gujarat,West,West,TX201,Organic Cotton,Cotton,609,609,210,12,127890,112543.2,112543.2,Match,Delivered,Delivered,UPI,UPI,Jan,Q1,2026
+ORDX00133,11/5/2026,C107,Coastal Cotton Co,Kerala,South,South,TX202,Printed Cambric,Printed Cotton,650,650,263,15,170950,145307.5,145307.5,Match,Delivered,Delivered,Cash,Cash,Nov,Q4,2026
+ORDX00134,2/11/2026,C107,Coastal Cotton Co,Kerala,South,South,TX203,Premium Denim,Denim,482,482,339,5,163398,155228.1,155228.1,Match,Processing,Processing,UPI,UPI,Feb,Q1,2026
+ORDX00135,6/6/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX207,Poly Viscose,Viscose,584,584,200,0,116800,116800,116800,Match,Shipped,Shipped,Cash,Cash,Jun,Q2,2026
+ORDX00136,9/11/2026,C107,Coastal Cotton Co,Kerala,South,South,TX201,Organic Cotton,Cotton,230,230,211,10,48530,43677,43677,Match,Processing,Processing,Cash,Cash,Sep,Q3,2026
+ORDX00137,4/28/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX201,Organic Cotton,Cotton,193,193,213,12,41109,36175.92,36175.92,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Apr,Q2,2026
+ORDX00138,9/18/2026,C108,Punjab Cloth Market,Punjab,North,North,TX208,Athleisure Knit,Cotton Lycra,191,191,283,12,54053,47566.64,47566.64,Match,Shipped,Shipped,Credit,Credit,Sep,Q3,2026
+ORDX00139,8/31/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX203,Premium Denim,Denim,326,326,335,2,109210,107025.8,107025.8,Match,Shipped,Shipped,Bank Transfer,Bank Transfer,Aug,Q3,2026
+ORDX00140,12/26/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX210,Matte Polyester,Polyester,584,584,177,10,103368,93031.2,93031.2,Match,Delivered,Delivered,Credit,Credit,Dec,Q4,2026
+ORDX00141,5/21/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX210,Matte Polyester,Polyester,650,650,187,10,121550,109395,109395,Match,Shipped,Shipped,Bank Transfer,Bank Transfer,May,Q2,2026
+ORDX00142,11/20/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX204,Rayon Flex,Rayon,167,167,229,15,38243,32506.55,32506.55,Match,Shipped,Shipped,Credit,Credit,Nov,Q4,2026
+ORDX00143,2/20/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX210,Matte Polyester,Polyester,63,63,177,10,11151,10035.9,10035.9,Match,Processing,Processing,Cash,Cash,Feb,Q1,2026
+ORDX00144,10/29/2026,C107,Coastal Cotton Co,Kerala,South,South,TX201,Organic Cotton,Cotton,647,647,235,8,152045,139881.4,139881.4,Match,Processing,Processing,UPI,UPI,Oct,Q4,2026
+ORDX00145,2/24/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX206,Silk Fusion,Silk Blend,405,405,609,15,246645,209648.25,209648.25,Match,Delivered,Delivered,UPI,UPI,Feb,Q1,2026
+ORDX00146,7/21/2026,C105,Northern Apparel Works,Delhi,North,North,TX209,Workwear Poly,Poly Cotton,470,470,210,0,98700,98700,98700,Match,Shipped,Shipped,Cash,Cash,Jul,Q3,2026
+ORDX00147,3/31/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX209,Workwear Poly,Poly Cotton,109,109,191,10,20819,18737.1,18737.1,Match,Delivered,Delivered,Cash,Cash,Mar,Q1,2026
+ORDX00148,5/8/2026,C102,Metro Fabric House,Maharashtra,West,West,TX201,Organic Cotton,Cotton,213,213,233,10,49629,44666.1,44666.1,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,May,Q2,2026
+ORDX00149,12/10/2026,C106,Royal Weave Traders,Gujarat,West,West,TX205,Linen Touch,Linen Blend,195,195,403,0,78585,78585,78585,Match,Shipped,Shipped,Credit,Credit,Dec,Q4,2026
+ORDX00150,2/18/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX202,Printed Cambric,Printed Cotton,118,118,261,0,30798,30798,30798,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Feb,Q1,2026
+ORDX00151,11/23/2026,C108,Punjab Cloth Market,Punjab,North,North,TX201,Organic Cotton,Cotton,175,175,232,10,40600,36540,36540,Match,Delivered,Delivered,Cash,Cash,Nov,Q4,2026
+ORDX00152,1/19/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX208,Athleisure Knit,Cotton Lycra,52,52,293,0,15236,15236,15236,Match,Shipped,Shipped,Credit,Credit,Jan,Q1,2026
+ORDX00153,4/23/2026,C102,Metro Fabric House,Maharashtra,West,West,TX206,Silk Fusion,Silk Blend,148,148,600,10,88800,79920,79920,Match,Processing,Processing,Bank Transfer,Bank Transfer,Apr,Q2,2026
+ORDX00154,2/24/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX208,Athleisure Knit,Cotton Lycra,677,677,289,15,195653,166305.05,166305.05,Match,Delivered,Delivered,credit,Credit,Feb,Q1,2026
+ORDX00155,3/28/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX201,Organic Cotton,Cotton,89,89,227,5,20203,19192.85,19192.85,Match,Processing,Processing,UPI,UPI,Mar,Q1,2026
+ORDX00156,11/19/2026,C109,Odisha Style Mills,Odisha,East,East,TX207,Poly Viscose,Viscose,477,477,228,12,108756,95705.28,95705.28,Match,Shipped,Shipped,UPI,UPI,Nov,Q4,2026
+ORDX00157,2/20/2026,C105,Northern Apparel Works,Delhi,North,North,TX203,Premium Denim,Denim,643,643,339,5,217977,207078.15,207078.15,Match,Shipped,Shipped,Cash,Cash,Feb,Q1,2026
+ORDX00158,10/29/2026,C108,Punjab Cloth Market,Punjab,North,North,TX208,Athleisure Knit,Cotton Lycra,525,525,283,15,148575,126288.75,126288.75,Match,Cancelled,Cancelled,Wallet,Wallet,Oct,Q4,2026
+ORDX00159,1/7/2026,C107,Coastal Cotton Co,Kerala,South,South,TX202,Printed Cambric,Printed Cotton,364,364,245,12,89180,78478.4,78478.4,Match,Delivered,Delivered,Cash,Cash,Jan,Q1,2026
+ORDX00160,10/12/2026,C103,LoomCraft India,Karnataka,South,South,TX204,Rayon Flex,Rayon,116,116,225,2,26100,25578,25578,Match,Processing,Processing,Bank Transfer,Bank Transfer,Oct,Q4,2026
+ORDX00161,7/14/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX210,Matte Polyester,Polyester,505,505,181,12,91405,80436.4,80436.4,Match,Processing,Processing,Wallet,Wallet,Jul,Q3,2026
+ORDX00162,8/14/2026,C106,Royal Weave Traders,Gujarat,West,West,TX209,Workwear Poly,Poly Cotton,87,87,192,5,16704,15868.8,15868.8,Match,Cancelled,Cancelled,Bank Transfer,Bank Transfer,Aug,Q3,2026
+ORDX00163,7/21/2026,C108,Punjab Cloth Market,Punjab,North,North,TX201,Organic Cotton,Cotton,192,192,236,15,45312,38515.2,38515.2,Match,Cancelled,Cancelled,UPI,UPI,Jul,Q3,2026
+ORDX00164,7/28/2026,C102,Metro Fabric House,Maharashtra,West,West,TX203,Premium Denim,Denim,560,560,332,0,185920,185920,185920,Match,Shipped,Shipped,UPI,UPI,Jul,Q3,2026
+ORDX00165,9/3/2026,C107,Coastal Cotton Co,Kerala,South,South,TX209,Workwear Poly,Poly Cotton,312,312,203,3,63336,61435.92,61435.92,Match,Returned,Returned,Credit,Credit,Sep,Q3,2026
+ORDX00166,10/20/2026,C102,Metro Fabric House,Maharashtra,West,West,TX207,Poly Viscose,Viscose,109,109,217,10,23653,21287.7,21287.7,Match,Delivered,Delivered,Credit,Credit,Oct,Q4,2026
+ORDX00167,2/3/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX209,Workwear Poly,Poly Cotton,51,51,214,8,10914,10040.88,10040.88,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Feb,Q1,2026
+ORDX00168,12/28/2026,C107,Coastal Cotton Co,Kerala,South,South,TX205,Linen Touch,Linen Blend,376,376,401,8,150776,138713.92,138713.92,Match,Cancelled,Cancelled,Cash,Cash,Dec,Q4,2026
+ORDX00169,9/25/2026,C108,Punjab Cloth Market,Punjab,North,North,TX202,Printed Cambric,Printed Cotton,489,489,257,2,125673,123159.54,123159.54,Match,Processing,Processing,Wallet,Wallet,Sep,Q3,2026
+ORDX00170,2/15/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX210,Matte Polyester,Polyester,610,610,197,2,120170,117766.6,117766.6,Match,Returned,Returned,UPI,UPI,Feb,Q1,2026
+ORDX00171,10/19/2026,C103,LoomCraft India,Karnataka,South,South,TX205,Linen Touch,Linen Blend,405,405,403,2,163215,159950.7,159950.7,Match,Delivered,Delivered,Cash,Cash,Oct,Q4,2026
+ORDX00172,7/6/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX201,Organic Cotton,Cotton,261,261,211,10,55071,49563.9,49563.9,Match,Delivered,Delivered,Wallet,Wallet,Jul,Q3,2026
+ORDX00173,9/7/2026,C108,Punjab Cloth Market,Punjab,North,North,TX201,Organic Cotton,Cotton,582,582,229,12,133278,117284.64,117284.64,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Sep,Q3,2026
+ORDX00174,12/31/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX201,Organic Cotton,Cotton,516,516,235,0,121260,121260,121260,Match,Delivered,Delivered,UPI,UPI,Dec,Q4,2026
+ORDX00175,1/17/2026,C109,Odisha Style Mills,Odisha,East,East,TX208,Athleisure Knit,Cotton Lycra,675,675,308,0,207900,207900,207900,Match,Shipped,Shipped,Credit,Credit,Jan,Q1,2026
+ORDX00176,10/18/2026,C109,Odisha Style Mills,Odisha,East,East,TX207,Poly Viscose,Viscose,165,165,204,2,33660,32986.8,32986.8,Match,Delivered,Delivered,Cash,Cash,Oct,Q4,2026
+ORDX00177,1/12/2026,C106,Royal Weave Traders,Gujarat,West,West,TX202,Printed Cambric,Printed Cotton,309,309,256,8,79104,72775.68,72775.68,Match,Processing,Processing,UPI,UPI,Jan,Q1,2026
+ORDX00178,2/26/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX210,Matte Polyester,Polyester,531,531,181,12,96111,84577.68,84577.68,Match,Delivered,Delivered,Cash,Cash,Feb,Q1,2026
+ORDX00179,3/22/2026,C108,Punjab Cloth Market,Punjab,North,North,TX205,Linen Touch,Linen Blend,519,519,390,10,202410,182169,182169,Match,Processing,Processing,UPI,UPI,Mar,Q1,2026
+ORDX00180,9/25/2026,C102,Metro Fabric House,Maharashtra,West,West,TX209,Workwear Poly,Poly Cotton,689,689,215,3,148135,143690.95,143690.95,Match,Delivered,Delivered,Credit,Credit,Sep,Q3,2026
+ORDX00181,10/9/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX207,Poly Viscose,Viscose,120,120,206,2,24720,24225.6,24225.6,Match,Delivered,Delivered,Wallet,Wallet,Oct,Q4,2026
+ORDX00182,6/25/2026,C107,Coastal Cotton Co,Kerala,South,South,TX209,Workwear Poly,Poly Cotton,532,532,212,3,112784,109400.48,109400.48,Match,Processing,Processing,Bank Transfer,Bank Transfer,Jun,Q2,2026
+ORDX00183,4/13/2026,C107,Coastal Cotton Co,Kerala,South,South,TX203,Premium Denim,Denim,307,307,355,10,108985,98086.5,98086.5,Match,delivered,Delivered,Bank Transfer,Bank Transfer,Apr,Q2,2026
+ORDX00184,5/11/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX202,Printed Cambric,Printed Cotton,205,205,270,15,55350,47047.5,47047.5,Match,Shipped,Shipped,Bank Transfer,Bank Transfer,May,Q2,2026
+ORDX00185,1/4/2026,C107,Coastal Cotton Co,Kerala,South,South,TX208,Athleisure Knit,Cotton Lycra,383,383,304,10,116432,104788.8,104788.8,Match,Shipped,Shipped,UPI,UPI,Jan,Q1,2026
+ORDX00186,11/7/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX202,Printed Cambric,Printed Cotton,204,204,274,2,55896,54778.08,54778.08,Match,Delivered,Delivered,Wallet,Wallet,Nov,Q4,2026
+ORDX00187,2/8/2026,C102,Metro Fabric House,Maharashtra,West,West,TX203,Premium Denim,Denim,63,63,341,10,21483,19334.7,19334.7,Match,Delivered,Delivered,Wallet,Wallet,Feb,Q1,2026
+ORDX00188,9/29/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX209,Workwear Poly,Poly Cotton,474,474,204,5,96696,91861.2,91861.2,Match,Delivered,Delivered,UPI,UPI,Sep,Q3,2026
+ORDX00189,3/6/2026,C107,Coastal Cotton Co,Kerala,South,South,TX204,Rayon Flex,Rayon,37,37,238,8,8806,8101.52,8101.52,Match,Delivered,Delivered,Credit,Credit,Mar,Q1,2026
+ORDX00190,10/20/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX202,Printed Cambric,Printed Cotton,699,699,245,15,171255,145566.75,145566.75,Match,Cancelled,Cancelled,UPI,UPI,Oct,Q4,2026
+ORDX00191,12/10/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX209,Workwear Poly,Poly Cotton,174,174,215,3,37410,36287.7,36287.7,Match,Processing,Processing,Wallet,Wallet,Dec,Q4,2026
+ORDX00192,10/22/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX206,Silk Fusion,Silk Blend,474,474,608,12,288192,253608.96,253608.96,Match,Shipped,Shipped,Wallet,Wallet,Oct,Q4,2026
+ORDX00193,7/18/2026,C102,Metro Fabric House,Maharashtra,West,West,TX209,Workwear Poly,Poly Cotton,598,598,216,5,129168,122709.6,122709.6,Match,Delivered,Delivered,Wallet,Wallet,Jul,Q3,2026
+ORDX00194,8/31/2026,C106,Royal Weave Traders,Gujarat,West,West,TX205,Linen Touch,Linen Blend,527,527,384,10,202368,182131.2,182131.2,Match,Delivered,Delivered,UPI,UPI,Aug,Q3,2026
+ORDX00195,8/29/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX209,Workwear Poly,Poly Cotton,540,540,213,3,115020,111569.4,111569.4,Match,Delivered,Delivered,Wallet,Wallet,Aug,Q3,2026
+ORDX00196,6/26/2026,C106,Royal Weave Traders,Gujarat,West,West,TX207,Poly Viscose,Viscose,555,555,219,3,121545,117898.65,117898.65,Match,Returned,Returned,Wallet,Wallet,Jun,Q2,2026
+ORDX00197,6/27/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX210,Matte Polyester,Polyester,96,96,193,0,18528,18528,18528,Match,Cancelled,Cancelled,Cash,Cash,Jun,Q2,2026
+ORDX00198,3/30/2026,C106,Royal Weave Traders,Gujarat,West,West,TX208,Athleisure Knit,Cotton Lycra,363,363,293,5,106359,101041.05,101041.05,Match,Processing,Processing,Cash,Cash,Mar,Q1,2026
+ORDX00199,11/19/2026,C109,Odisha Style Mills,Odisha,East,East,TX208,Athleisure Knit,Cotton Lycra,669,669,308,5,206052,195749.4,195749.4,Match,Cancelled,Cancelled,UPI,UPI,Nov,Q4,2026
+ORDX00200,1/9/2026,C102,Metro Fabric House,Maharashtra,West,West,TX210,Matte Polyester,Polyester,497,497,194,15,96418,81955.3,81955.3,Match,delivered,Delivered,Cash,Cash,Jan,Q1,2026
+ORDX00201,5/4/2026,C102,Metro Fabric House,Maharashtra,,#REF!,TX208,Athleisure Knit,Cotton Lycra,72,72,306,15,22032,18727.2,18727.2,Match,Shipped,Shipped,Credit,Credit,May,Q2,2026
+ORDX00202,2/6/2026,C102,Metro Fabric House,Maharashtra,West,West,TX206,Silk Fusion,Silk Blend,350,350,607,15,212450,180582.5,180582.5,Match,Cancelled,Cancelled,Wallet,Wallet,Feb,Q1,2026
+ORDX00203,2/9/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX202,Printed Cambric,Printed Cotton,335,335,274,15,91790,78021.5,78021.5,Match,Shipped,Shipped,credit,Credit,Feb,Q1,2026
+ORDX00204,2/9/2026,C103,LoomCraft India,Karnataka,South,South,TX208,Athleisure Knit,Cotton Lycra,74,74,292,3,21608,20959.76,20959.76,Match,Delivered,Delivered,Cash,Cash,Feb,Q1,2026
+ORDX00205,2/28/2026,C108,Punjab Cloth Market,Punjab,North,North,TX201,Organic Cotton,Cotton,605,605,218,15,131890,112106.5,112106.5,Match,Delivered,Delivered,Wallet,Wallet,Feb,Q1,2026
+ORDX00206,6/19/2026,C109,Odisha Style Mills,Odisha,East,East,TX205,Linen Touch,Linen Blend,390,390,401,12,156390,137623.2,137623.2,Match,Processing,Processing,Wallet,Wallet,Jun,Q2,2026
+ORDX00207,9/6/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX210,Matte Polyester,Polyester,65,65,179,12,11635,10238.8,10238.8,Match,Delivered,Delivered,Cash,Cash,Sep,Q3,2026
+ORDX00208,3/23/2026,C105,Northern Apparel Works,Delhi,North,North,TX207,Poly Viscose,Viscose,390,390,213,2,83070,81408.6,81408.6,Match,Processing,Processing,Bank Transfer,Bank Transfer,Mar,Q1,2026
+ORDX00209,8/12/2026,C107,Coastal Cotton Co,Kerala,South,South,TX202,Printed Cambric,Printed Cotton,559,559,271,10,151489,136340.1,136340.1,Match,Returned,Returned,UPI,UPI,Aug,Q3,2026
+ORDX00210,7/7/2026,C108,Punjab Cloth Market,Punjab,North,North,TX202,Printed Cambric,Printed Cotton,482,482,257,15,123874,105292.9,105292.9,Match,Processing,Processing,Cash,Cash,Jul,Q3,2026
+ORDX00211,8/21/2026,C107,Coastal Cotton Co,Kerala,South,South,TX210,Matte Polyester,Polyester,258,258,200,2,51600,50568,50568,Match,Delivered,Delivered,Wallet,Wallet,Aug,Q3,2026
+ORDX00212,12/18/2026,C106,Royal Weave Traders,Gujarat,West,West,TX204,Rayon Flex,Rayon,518,518,228,2,118104,115741.92,115741.92,Match,Delivered,Delivered,UPI,UPI,Dec,Q4,2026
+ORDX00213,7/12/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX206,Silk Fusion,Silk Blend,56,56,618,2,34608,33915.84,33915.84,Match,Delivered,Delivered,Credit,Credit,Jul,Q3,2026
+ORDX00214,9/8/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX204,Rayon Flex,Rayon,261,261,253,5,66033,62731.35,62731.35,Match,Delivered,Delivered,Wallet,Wallet,Sep,Q3,2026
+ORDX00215,5/14/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX201,Organic Cotton,Cotton,113,113,228,15,25764,21899.4,21899.4,Match,Delivered,Delivered,Credit,Credit,May,Q2,2026
+ORDX00216,10/12/2026,C102,Metro Fabric House,Maharashtra,West,West,TX202,Printed Cambric,Printed Cotton,550,550,247,0,135850,135850,135850,Match,Delivered,Delivered,Wallet,Wallet,Oct,Q4,2026
+ORDX00217,10/15/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX204,Rayon Flex,Rayon,164,164,238,12,39032,34348.16,34348.16,Match,Delivered,Delivered,Cash,Cash,Oct,Q4,2026
+ORDX00218,12/3/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX203,Premium Denim,Denim,416,416,348,5,144768,137529.6,137529.6,Match,Delivered,Delivered,Wallet,Wallet,Dec,Q4,2026
+ORDX00219,9/19/2026,C105,Northern Apparel Works,Delhi,North,North,TX204,Rayon Flex,Rayon,693,693,229,0,158697,158697,158697,Match,Returned,Returned,UPI,UPI,Sep,Q3,2026
+ORDX00220,1/15/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX206,Silk Fusion,Silk Blend,-196,196,597,8,117012,107651.04,107651.04,Match,Delivered,Delivered,UPI,UPI,Jan,Q1,2026
+ORDX00221,9/28/2026,C108,Punjab Cloth Market,Punjab,North,North,TX202,Printed Cambric,Printed Cotton,526,526,271,15,142546,121164.1,121164.1,Match,Returned,Returned,UPI,UPI,Sep,Q3,2026
+ORDX00222,1/8/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX205,Linen Touch,Linen Blend,625,625,388,3,242500,235225,235225,Match,Delivered,Delivered,Cash,Cash,Jan,Q1,2026
+ORDX00223,1/24/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX205,Linen Touch,Linen Blend,412,412,394,3,162328,157458.16,157458.16,Match,Processing,Processing,UPI,UPI,Jan,Q1,2026
+ORDX00224,8/24/2026,C107,Coastal Cotton Co,Kerala,South,South,TX201,Organic Cotton,Cotton,555,555,225,10,124875,112387.5,112387.5,Match,Delivered,Delivered,Wallet,Wallet,Aug,Q3,2026
+ORDX00225,12/10/2026,C105,Northern Apparel Works,Delhi,North,North,TX202,Printed Cambric,Printed Cotton,618,618,257,3,158826,154061.22,154061.22,Match,Delivered,Delivered,Wallet,Wallet,Dec,Q4,2026
+ORDX00226,4/5/2026,C102,Metro Fabric House,Maharashtra,West,West,TX202,Printed Cambric,Printed Cotton,200,200,255,15,51000,43350,43350,Match,Shipped,Shipped,UPI,UPI,Apr,Q2,2026
+ORDX00227,9/24/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX206,Silk Fusion,Silk Blend,248,248,618,3,153264,148666.08,148666.08,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Sep,Q3,2026
+ORDX00228,3/27/2026,C109,Odisha Style Mills,Odisha,East,East,TX206,Silk Fusion,Silk Blend,126,126,595,5,74970,71221.5,71221.5,Match,Delivered,Delivered,Credit,Credit,Mar,Q1,2026
+ORDX00229,1/2/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX201,Organic Cotton,Cotton,259,259,218,0,56462,56462,56462,Match,Delivered,Delivered,UPI,UPI,Jan,Q1,2026
+ORDX00230,4/13/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX210,Matte Polyester,Polyester,228,228,176,10,40128,36115.2,36115.2,Match,Delivered,Delivered,Credit,Credit,Apr,Q2,2026
+ORDX00231,4/16/2026,C102,Metro Fabric House,Maharashtra,West,West,TX202,Printed Cambric,Printed Cotton,462,462,252,0,116424,116424,116424,Match,Shipped,Shipped,Cash,Cash,Apr,Q2,2026
+ORDX00232,1/9/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX206,Silk Fusion,Silk Blend,107,107,625,12,66875,58850,58850,Match,Delivered,Delivered,Credit,Credit,Jan,Q1,2026
+ORDX00233,11/24/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX208,Athleisure Knit,Cotton Lycra,352,352,309,5,108768,103329.6,103329.6,Match,Shipped,Shipped,Cash,Cash,Nov,Q4,2026
+ORDX00234,11/10/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX204,Rayon Flex,Rayon,56,56,255,2,14280,13994.4,13994.4,Match,Shipped,Shipped,UPI,UPI,Nov,Q4,2026
+ORDX00235,1/14/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX210,Matte Polyester,Polyester,46,46,181,12,8326,7326.88,7326.88,Match,Delivered,Delivered,Wallet,Wallet,Jan,Q1,2026
+ORDX00236,5/27/2026,C103,LoomCraft India,Karnataka,South,South,TX210,Matte Polyester,Polyester,601,601,173,10,103973,93575.7,93575.7,Match,Shipped,Shipped,Wallet,Wallet,May,Q2,2026
+ORDX00237,7/2/2026,C107,Coastal Cotton Co,Kerala,South,South,TX205,Linen Touch,Linen Blend,322,322,386,3,124292,120563.24,120563.24,Match,Delivered,Delivered,Credit,Credit,Jul,Q3,2026
+ORDX00238,2/6/2026,C103,LoomCraft India,Karnataka,South,South,TX206,Silk Fusion,Silk Blend,386,386,603,15,232758,197844.3,197844.3,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Feb,Q1,2026
+ORDX00239,2/4/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX203,Premium Denim,Denim,479,479,346,8,165734,152475.28,152475.28,Match,Delivered,Delivered,UPI,UPI,Feb,Q1,2026
+ORDX00240,12/16/2026,C107,Coastal Cotton Co,Kerala,South,South,TX201,Organic Cotton,Cotton,193,193,238,2,45934,45015.32,45015.32,Match,Processing,Processing,Wallet,Wallet,Dec,Q4,2026
+ORDX00241,6/1/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX204,Rayon Flex,Rayon,596,596,243,0,144828,144828,144828,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Jun,Q2,2026
+ORDX00242,12/20/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX205,Linen Touch,Linen Blend,546,546,376,5,205296,195031.2,195031.2,Match,Shipped,Shipped,Bank Transfer,Bank Transfer,Dec,Q4,2026
+ORDX00243,8/31/2026,C106,Royal Weave Traders,Gujarat,West,West,TX207,Poly Viscose,Viscose,405,405,221,2,89505,87714.9,87714.9,Match,Delivered,Delivered,Cash,Cash,Aug,Q3,2026
+ORDX00244,1/21/2026,C102,Metro Fabric House,Maharashtra,West,West,TX208,Athleisure Knit,Cotton Lycra,554,554,295,5,163430,155258.5,155258.5,Match,Shipped,Shipped,Credit,Credit,Jan,Q1,2026
+ORDX00245,10/20/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX202,Printed Cambric,Printed Cotton,587,587,266,10,156142,140527.8,140527.8,Match,Processing,Processing,UPI,UPI,Oct,Q4,2026
+ORDX00246,8/19/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX202,Printed Cambric,Printed Cotton,179,179,269,3,48151,46706.47,46706.47,Match,Returned,Returned,Credit,Credit,Aug,Q3,2026
+ORDX00247,9/18/2026,C103,LoomCraft India,Karnataka,South,South,TX205,Linen Touch,Linen Blend,483,483,386,15,186438,158472.3,158472.3,Match,Delivered,Delivered,Wallet,Wallet,Sep,Q3,2026
+ORDX00248,7/14/2026,C107,Coastal Cotton Co,Kerala,South,South,TX210,Matte Polyester,Polyester,664,664,185,10,122840,110556,110556,Match,Delivered,Delivered,Credit,Credit,Jul,Q3,2026
+ORDX00249,9/14/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX209,Workwear Poly,Poly Cotton,167,167,197,5,32899,31254.05,31254.05,Match,Shipped,Shipped,UPI,UPI,Sep,Q3,2026
+ORDX00250,10/11/2026,C109,Odisha Style Mills,Odisha,East,East,TX206,Silk Fusion,Silk Blend,155,155,599,3,92845,90059.65,90059.65,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Oct,Q4,2026
+ORDX00251,4/30/2026,C105,Northern Apparel Works,Delhi,North,North,TX201,Organic Cotton,Cotton,590,590,237,15,139830,118855.5,118855.5,Match,Processing,Processing,Bank Transfer,Bank Transfer,Apr,Q2,2026
+ORDX00252,11/30/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX204,Rayon Flex,Rayon,676,676,255,0,172380,172380,172380,Match,Delivered,Delivered,Credit,Credit,Nov,Q4,2026
+ORDX00253,2/4/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX207,Poly Viscose,Viscose,232,232,220,8,51040,46956.8,46956.8,Match,Delivered,Delivered,UPI,UPI,Feb,Q1,2026
+ORDX00254,7/25/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX203,Premium Denim,Denim,46,46,344,2,15824,15507.52,15507.52,Match,Returned,Returned,Cash,Cash,Jul,Q3,2026
+ORDX00255,8/5/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX202,Printed Cambric,Printed Cotton,340,340,269,8,91460,84143.2,84143.2,Match,Shipped,Shipped,Cash,Cash,Aug,Q3,2026
+ORDX00256,10/21/2026,C102,Metro Fabric House,Maharashtra,West,West,TX207,Poly Viscose,Viscose,185,185,229,15,42365,36010.25,36010.25,Match,Delivered,Delivered,Credit,Credit,Oct,Q4,2026
+ORDX00257,1/8/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX207,Poly Viscose,Viscose,375,375,222,0,83250,83250,83250,Match,Shipped,Shipped,Wallet,Wallet,Jan,Q1,2026
+ORDX00258,7/12/2026,C106,Royal Weave Traders,Gujarat,West,West,TX202,Printed Cambric,Printed Cotton,345,345,270,12,93150,81972,81972,Match,Delivered,Delivered,Credit,Credit,Jul,Q3,2026
+ORDX00259,1/26/2026,C102,Metro Fabric House,Maharashtra,West,West,TX201,Organic Cotton,Cotton,682,682,217,12,147994,130234.72,130234.72,Match,Processing,Processing,Cash,Cash,Jan,Q1,2026
+ORDX00260,10/29/2026,C108,Punjab Cloth Market,Punjab,North,North,TX209,Workwear Poly,Poly Cotton,35,35,220,3,7700,7469,7469,Match,Shipped,Shipped,Wallet,Wallet,Oct,Q4,2026
+ORDX00261,3/31/2026,C105,Northern Apparel Works,Delhi,North,North,TX209,Workwear Poly,Poly Cotton,254,254,207,2,52578,51526.44,51526.44,Match,Shipped,Shipped,UPI,UPI,Mar,Q1,2026
+ORDX00262,3/30/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX209,Workwear Poly,Poly Cotton,619,619,202,8,125038,115034.96,115034.96,Match,Delivered,Delivered,Cash,Cash,Mar,Q1,2026
+ORDX00263,4/12/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX202,Printed Cambric,Printed Cotton,528,528,250,5,132000,125400,125400,Match,Delivered,Delivered,Credit,Credit,Apr,Q2,2026
+ORDX00264,10/6/2026,C102,Metro Fabric House,Maharashtra,West,West,TX209,Workwear Poly,Poly Cotton,399,399,190,3,75810,73535.7,73535.7,Match,Delivered,Delivered,UPI,UPI,Oct,Q4,2026
+ORDX00265,3/17/2026,C105,Northern Apparel Works,Delhi,North,North,TX201,Organic Cotton,Cotton,177,177,228,8,40356,37127.52,37127.52,Match,Delivered,Delivered,UPI,UPI,Mar,Q1,2026
+ORDX00266,8/12/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX201,Organic Cotton,Cotton,531,531,221,3,117351,113830.47,113830.47,Match,Delivered,Delivered,Cash,Cash,Aug,Q3,2026
+ORDX00267,4/20/2026,C103,LoomCraft India,Karnataka,South,South,TX208,Athleisure Knit,Cotton Lycra,37,37,305,8,11285,10382.2,10382.2,Match,Returned,Returned,Credit,Credit,Apr,Q2,2026
+ORDX00268,8/9/2026,C106,Royal Weave Traders,Gujarat,West,West,TX205,Linen Touch,Linen Blend,188,188,386,0,72568,72568,72568,Match,Delivered,Delivered,Wallet,Wallet,Aug,Q3,2026
+ORDX00269,9/28/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX204,Rayon Flex,Rayon,77,77,247,15,19019,16166.15,16166.15,Match,Processing,Processing,Credit,Credit,Sep,Q3,2026
+ORDX00270,4/17/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX205,Linen Touch,Linen Blend,370,370,395,12,146150,128612,128612,Match,Cancelled,Cancelled,UPI,UPI,Apr,Q2,2026
+ORDX00271,9/28/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX203,Premium Denim,Denim,358,358,337,8,120646,110994.32,110994.32,Match,Delivered,Delivered,Credit,Credit,Sep,Q3,2026
+ORDX00272,2/21/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX205,Linen Touch,Linen Blend,528,528,403,3,212784,206400.48,206400.48,Match,Processing,Processing,Cash,Cash,Feb,Q1,2026
+ORDX00273,6/7/2026,C108,Punjab Cloth Market,Punjab,North,North,TX210,Matte Polyester,Polyester,692,692,186,2,128712,126137.76,126137.76,Match,Returned,Returned,Credit,Credit,Jun,Q2,2026
+ORDX00274,12/17/2026,C109,Odisha Style Mills,Odisha,East,East,TX207,Poly Viscose,Viscose,142,142,206,2,29252,28666.96,28666.96,Match,Delivered,Delivered,UPI,UPI,Dec,Q4,2026
+ORDX00275,2/5/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX210,Matte Polyester,Polyester,118,118,191,5,22538,21411.1,21411.1,Match,Processing,Processing,UPI,UPI,Feb,Q1,2026
+ORDX00276,6/22/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX208,Athleisure Knit,Cotton Lycra,396,396,306,12,121176,106634.88,106634.88,Match,Delivered,Delivered,Wallet,Wallet,Jun,Q2,2026
+ORDX00277,1/26/2026,C106,Royal Weave Traders,Gujarat,West,West,TX209,Workwear Poly,Poly Cotton,555,555,199,12,110445,97191.6,97191.6,Match,Delivered,Delivered,UPI,UPI,Jan,Q1,2026
+ORDX00278,6/1/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX208,Athleisure Knit,Cotton Lycra,83,83,306,2,25398,24890.04,24890.04,Match,Processing,Processing,Credit,Credit,Jun,Q2,2026
+ORDX00279,4/10/2026,C108,Punjab Cloth Market,Punjab,North,North,TX203,Premium Denim,Denim,94,94,334,12,31396,27628.48,27628.48,Match,Processing,Processing,Cash,Cash,Apr,Q2,2026
+ORDX00280,8/30/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX210,Matte Polyester,Polyester,615,615,186,12,114390,100663.2,100663.2,Match,Shipped,Shipped,Credit,Credit,Aug,Q3,2026
+ORDX00281,5/29/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX207,Poly Viscose,Viscose,696,696,204,15,141984,120686.4,120686.4,Match,Shipped,Shipped,Bank Transfer,Bank Transfer,May,Q2,2026
+ORDX00282,3/19/2026,C107,Coastal Cotton Co,Kerala,South,South,TX210,Matte Polyester,Polyester,111,111,194,8,21534,19811.28,19811.28,Match,delivered,Delivered,Credit,Credit,Mar,Q1,2026
+ORDX00283,3/26/2026,C103,LoomCraft India,Karnataka,South,South,TX207,Poly Viscose,Viscose,692,692,209,3,144628,140289.16,140289.16,Match,Delivered,Delivered,UPI,UPI,Mar,Q1,2026
+ORDX00284,10/7/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX207,Poly Viscose,Viscose,336,336,203,3,68208,66161.76,66161.76,Match,Shipped,Shipped,Credit,Credit,Oct,Q4,2026
+ORDX00285,8/20/2026,C107,Coastal Cotton Co,Kerala,South,South,TX204,Rayon Flex,Rayon,387,387,227,5,87849,83456.55,83456.55,Match,Delivered,Delivered,UPI,UPI,Aug,Q3,2026
+ORDX00286,7/15/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX206,Silk Fusion,Silk Blend,595,595,596,5,354620,336889,336889,Match,Shipped,Shipped,Bank Transfer,Bank Transfer,Jul,Q3,2026
+ORDX00287,9/21/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX205,Linen Touch,Linen Blend,264,264,392,15,103488,87964.8,87964.8,Match,Shipped,Shipped,Bank Transfer,Bank Transfer,Sep,Q3,2026
+ORDX00288,12/8/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX203,Premium Denim,Denim,164,164,336,12,55104,48491.52,48491.52,Match,Shipped,Shipped,UPI,UPI,Dec,Q4,2026
+ORDX00289,10/13/2026,C103,LoomCraft India,Karnataka,South,South,TX202,Printed Cambric,Printed Cotton,150,150,266,15,39900,33915,33915,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Oct,Q4,2026
+ORDX00290,11/7/2026,C105,Northern Apparel Works,Delhi,North,North,TX209,Workwear Poly,Poly Cotton,242,242,219,2,52998,51938.04,51938.04,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Nov,Q4,2026
+ORDX00291,1/3/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX208,Athleisure Knit,Cotton Lycra,690,690,292,10,201480,181332,181332,Match,Delivered,Delivered,Cash,Cash,Jan,Q1,2026
+ORDX00292,1/5/2026,C108,Punjab Cloth Market,Punjab,North,North,TX206,Silk Fusion,Silk Blend,282,282,595,5,167790,159400.5,159400.5,Match,Processing,Processing,Wallet,Wallet,Jan,Q1,2026
+ORDX00293,8/19/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX206,Silk Fusion,Silk Blend,195,195,610,8,118950,109434,109434,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Aug,Q3,2026
+ORDX00294,5/31/2026,C102,Metro Fabric House,Maharashtra,West,West,TX204,Rayon Flex,Rayon,148,148,226,8,33448,30772.16,30772.16,Match,Delivered,Delivered,Credit,Credit,May,Q2,2026
+ORDX00295,11/27/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX209,Workwear Poly,Poly Cotton,214,214,212,10,45368,40831.2,40831.2,Match,Cancelled,Cancelled,Credit,Credit,Nov,Q4,2026
+ORDX00296,5/23/2026,C107,Coastal Cotton Co,Kerala,South,South,TX206,Silk Fusion,Silk Blend,376,376,599,5,225224,213962.8,213962.8,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,May,Q2,2026
+ORDX00297,6/15/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX210,Matte Polyester,Polyester,628,628,172,8,108016,99374.72,99374.72,Match,Shipped,Shipped,Credit,Credit,Jun,Q2,2026
+ORDX00298,12/2/2026,C106,Royal Weave Traders,Gujarat,West,West,TX203,Premium Denim,Denim,41,41,338,5,13858,13165.1,13165.1,Match,Delivered,Delivered,Wallet,Wallet,Dec,Q4,2026
+ORDX00299,12/13/2026,C103,LoomCraft India,Karnataka,South,South,TX202,Printed Cambric,Printed Cotton,164,164,262,3,42968,41678.96,41678.96,Match,Returned,Returned,Credit,Credit,Dec,Q4,2026
+ORDX00300,10/8/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX209,Workwear Poly,Poly Cotton,287,287,190,10,54530,49077,49077,Match,Cancelled,Cancelled,UPI,UPI,Oct,Q4,2026
+ORDX00301,1/25/2026,C106,Royal Weave Traders,Gujarat,West,West,TX204,Rayon Flex,Rayon,687,687,226,8,155262,142841.04,142841.04,Match,Delivered,Delivered,Credit,Credit,Jan,Q1,2026
+ORDX00302,3/20/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX209,Workwear Poly,Poly Cotton,614,614,217,8,133238,122578.96,122578.96,Match,Processing,Processing,Bank Transfer,Bank Transfer,Mar,Q1,2026
+ORDX00303,11/12/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX202,Printed Cambric,Printed Cotton,481,481,273,10,131313,118181.7,118181.7,Match,Delivered,Delivered,Credit,Credit,Nov,Q4,2026
+ORDX00304,10/14/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX207,Poly Viscose,Viscose,551,551,201,3,110751,107428.47,107428.47,Match,Delivered,Delivered,Credit,Credit,Oct,Q4,2026
+ORDX00305,9/10/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX202,Printed Cambric,Printed Cotton,90,90,253,12,22770,20037.6,20037.6,Match,Delivered,Delivered,UPI,UPI,Sep,Q3,2026
+ORDX00306,11/25/2026,C103,LoomCraft India,Karnataka,South,South,TX205,Linen Touch,Linen Blend,190,190,388,10,73720,66348,66348,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Nov,Q4,2026
+ORDX00307,9/17/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX204,Rayon Flex,Rayon,649,649,241,15,156409,132947.65,132947.65,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Sep,Q3,2026
+ORDX00308,5/4/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX204,Rayon Flex,Rayon,456,456,242,12,110352,97109.76,97109.76,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,May,Q2,2026
+ORDX00309,6/4/2026,C103,LoomCraft India,Karnataka,South,South,TX207,Poly Viscose,Viscose,126,126,213,10,26838,24154.2,24154.2,Match,Delivered,Delivered,Wallet,Wallet,Jun,Q2,2026
+ORDX00310,7/2/2026,C106,Royal Weave Traders,Gujarat,West,West,TX205,Linen Touch,Linen Blend,420,420,401,10,168420,151578,151578,Match,Delivered,Delivered,Wallet,Wallet,Jul,Q3,2026
+ORDX00311,11/10/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX207,Poly Viscose,Viscose,457,457,200,8,91400,84088,84088,Match,Delivered,Delivered,Credit,Credit,Nov,Q4,2026
+ORDX00312,6/30/2026,C102,Metro Fabric House,Maharashtra,West,West,TX205,Linen Touch,Linen Blend,372,372,387,8,143964,132446.88,132446.88,Match,Delivered,Delivered,UPI,UPI,Jun,Q2,2026
+ORDX00313,7/7/2026,C103,LoomCraft India,Karnataka,South,South,TX201,Organic Cotton,Cotton,429,429,230,12,98670,86829.6,86829.6,Match,Processing,Processing,Wallet,Wallet,Jul,Q3,2026
+ORDX00314,2/3/2026,C110,Jaipur Fashion Yard,Rajasthan,,#REF!,TX204,Rayon Flex,Rayon,598,598,252,15,150696,128091.6,128091.6,Match,Shipped,Shipped,Cash,Cash,Feb,Q1,2026
+ORDX00315,2/11/2026,C109,Odisha Style Mills,Odisha,East,East,TX204,Rayon Flex,Rayon,55,55,237,2,13035,12774.3,12774.3,Match,Delivered,Delivered,UPI,UPI,Feb,Q1,2026
+ORDX00316,5/9/2026,C108,Punjab Cloth Market,Punjab,North,North,TX209,Workwear Poly,Poly Cotton,164,164,205,5,33620,31939,31939,Match,Delivered,Delivered,Credit,Credit,May,Q2,2026
+ORDX00317,8/20/2026,C102,Metro Fabric House,Maharashtra,West,West,TX210,Matte Polyester,Polyester,318,318,192,3,61056,59224.32,59224.32,Match,Shipped,Shipped,Cash,Cash,Aug,Q3,2026
+ORDX00318,3/20/2026,C106,Royal Weave Traders,Gujarat,West,West,TX208,Athleisure Knit,Cotton Lycra,207,207,284,3,58788,57024.36,57024.36,Match,Shipped,Shipped,UPI,UPI,Mar,Q1,2026
+ORDX00319,1/8/2026,C107,Coastal Cotton Co,Kerala,South,South,TX205,Linen Touch,Linen Blend,234,234,397,0,92898,92898,92898,Match,Shipped,Shipped,Wallet,Wallet,Jan,Q1,2026
+ORDX00320,6/1/2026,C103,LoomCraft India,Karnataka,South,South,TX208,Athleisure Knit,Cotton Lycra,51,51,299,8,15249,14029.08,14029.08,Match,Shipped,Shipped,Credit,Credit,Jun,Q2,2026
+ORDX00321,7/30/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX204,Rayon Flex,Rayon,425,425,252,3,107100,103887,103887,Match,Delivered,Delivered,Credit,Credit,Jul,Q3,2026
+ORDX00322,12/16/2026,C105,Northern Apparel Works,Delhi,North,North,TX205,Linen Touch,Linen Blend,386,386,384,15,148224,125990.4,125990.4,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Dec,Q4,2026
+ORDX00323,9/13/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX208,Athleisure Knit,Cotton Lycra,394,394,288,0,113472,113472,113472,Match,Delivered,Delivered,Credit,Credit,Sep,Q3,2026
+ORDX00324,10/19/2026,C103,LoomCraft India,Karnataka,South,South,TX201,Organic Cotton,Cotton,416,416,223,5,92768,88129.6,88129.6,Match,Delivered,Delivered,UPI,UPI,Oct,Q4,2026
+ORDX00325,7/9/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX207,Poly Viscose,Viscose,404,404,220,2,88880,87102.4,87102.4,Match,Delivered,Delivered,Cash,Cash,Jul,Q3,2026
+ORDX00326,9/26/2026,C108,Punjab Cloth Market,Punjab,North,North,TX202,Printed Cambric,Printed Cotton,194,194,260,12,50440,44387.2,44387.2,Match,Processing,Processing,Bank Transfer,Bank Transfer,Sep,Q3,2026
+ORDX00327,9/28/2026,C102,Metro Fabric House,Maharashtra,West,West,TX210,Matte Polyester,Polyester,307,307,187,15,57409,48797.65,48797.65,Match,Delivered,Delivered,UPI,UPI,Sep,Q3,2026
+ORDX00328,4/24/2026,C108,Punjab Cloth Market,Punjab,North,North,TX210,Matte Polyester,Polyester,448,448,190,5,85120,80864,80864,Match,Shipped,Shipped,Cash,Cash,Apr,Q2,2026
+ORDX00329,5/2/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX208,Athleisure Knit,Cotton Lycra,578,578,302,10,174556,157100.4,157100.4,Match,Processing,Processing,Bank Transfer,Bank Transfer,May,Q2,2026
+ORDX00330,5/29/2026,C109,Odisha Style Mills,Odisha,East,East,TX202,Printed Cambric,Printed Cotton,431,431,265,10,114215,102793.5,102793.5,Match,Returned,Returned,Bank Transfer,Bank Transfer,May,Q2,2026
+ORDX00331,5/30/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX206,Silk Fusion,Silk Blend,269,269,616,0,165704,165704,165704,Match,Delivered,Delivered,Wallet,Wallet,May,Q2,2026
+ORDX00332,1/29/2026,C102,Metro Fabric House,Maharashtra,West,West,TX202,Printed Cambric,Printed Cotton,247,247,264,12,65208,57383.04,57383.04,Match,Processing,Processing,Cash,Cash,Jan,Q1,2026
+ORDX00333,2/13/2026,C107,Coastal Cotton Co,Kerala,South,South,TX208,Athleisure Knit,Cotton Lycra,495,495,290,10,143550,129195,129195,Match,Processing,Processing,UPI,UPI,Feb,Q1,2026
+ORDX00334,7/10/2026,C108,Punjab Cloth Market,Punjab,North,North,TX203,Premium Denim,Denim,664,664,347,3,230408,223495.76,223495.76,Match,Shipped,Shipped,Bank Transfer,Bank Transfer,Jul,Q3,2026
+ORDX00335,4/21/2026,C109,Odisha Style Mills,Odisha,East,East,TX205,Linen Touch,Linen Blend,170,170,400,2,68000,66640,66640,Match,Delivered,Delivered,UPI,UPI,Apr,Q2,2026
+ORDX00336,1/3/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX205,Linen Touch,Linen Blend,483,483,382,5,184506,175280.7,175280.7,Match,Delivered,Delivered,Credit,Credit,Jan,Q1,2026
+ORDX00337,1/10/2026,C102,Metro Fabric House,Maharashtra,West,West,TX209,Workwear Poly,Poly Cotton,439,439,203,15,89117,75749.45,75749.45,Match,Shipped,Shipped,Cash,Cash,Jan,Q1,2026
+ORDX00338,4/22/2026,C102,Metro Fabric House,Maharashtra,West,West,TX209,Workwear Poly,Poly Cotton,47,47,209,0,9823,9823,9823,Match,Delivered,Delivered,Credit,Credit,Apr,Q2,2026
+ORDX00339,2/23/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX210,Matte Polyester,Polyester,46,46,183,0,8418,8418,8418,Match,Delivered,Delivered,Credit,Credit,Feb,Q1,2026
+ORDX00340,1/20/2026,C105,Northern Apparel Works,Delhi,North,North,TX209,Workwear Poly,Poly Cotton,621,621,208,15,129168,109792.8,109792.8,Match,Processing,Processing,Cash,Cash,Jan,Q1,2026
+ORDX00341,5/12/2026,C105,Northern Apparel Works,Delhi,North,North,TX210,Matte Polyester,Polyester,657,657,173,8,113661,104568.12,104568.12,Match,Shipped,Shipped,Cash,Cash,May,Q2,2026
+ORDX00342,8/18/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX205,Linen Touch,Linen Blend,503,503,382,10,192146,172931.4,172931.4,Match,Delivered,Delivered,Credit,Credit,Aug,Q3,2026
+ORDX00343,7/7/2026,C106,Royal Weave Traders,Gujarat,West,West,TX204,Rayon Flex,Rayon,91,91,244,8,22204,20427.68,20427.68,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Jul,Q3,2026
+ORDX00344,8/17/2026,C103,LoomCraft India,Karnataka,South,South,TX208,Athleisure Knit,Cotton Lycra,370,370,302,2,111740,109505.2,109505.2,Match,Shipped,Shipped,Credit,Credit,Aug,Q3,2026
+ORDX00345,6/8/2026,C102,Metro Fabric House,Maharashtra,West,West,TX203,Premium Denim,Denim,222,222,343,5,76146,72338.7,72338.7,Match,Delivered,Delivered,Cash,Cash,Jun,Q2,2026
+ORDX00346,4/19/2026,C106,Royal Weave Traders,Gujarat,West,West,TX208,Athleisure Knit,Cotton Lycra,110,110,305,10,33550,30195,30195,Match,Shipped,Shipped,Bank Transfer,Bank Transfer,Apr,Q2,2026
+ORDX00347,12/16/2026,C103,LoomCraft India,Karnataka,South,South,TX204,Rayon Flex,Rayon,217,217,247,0,53599,53599,53599,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Dec,Q4,2026
+ORDX00348,4/28/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX209,Workwear Poly,Poly Cotton,195,195,195,0,38025,38025,38025,Match,Shipped,Shipped,Cash,Cash,Apr,Q2,2026
+ORDX00349,5/17/2026,C106,Royal Weave Traders,Gujarat,West,West,TX207,Poly Viscose,Viscose,636,636,204,15,129744,110282.4,110282.4,Match,Delivered,Delivered,Wallet,Wallet,May,Q2,2026
+ORDX00350,9/16/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX202,Printed Cambric,Printed Cotton,653,653,274,0,178922,178922,178922,Match,Processing,Processing,Wallet,Wallet,Sep,Q3,2026
+ORDX00351,12/31/2026,C106,Royal Weave Traders,Gujarat,West,West,TX201,Organic Cotton,Cotton,597,597,228,8,136116,125226.72,125226.72,Match,Delivered,Delivered,Credit,Credit,Dec,Q4,2026
+ORDX00352,12/15/2026,C103,LoomCraft India,Karnataka,South,South,TX205,Linen Touch,Linen Blend,83,83,384,8,31872,29322.24,29322.24,Match,Cancelled,Cancelled,Bank Transfer,Bank Transfer,Dec,Q4,2026
+ORDX00353,9/17/2026,C106,Royal Weave Traders,Gujarat,West,West,TX210,Matte Polyester,Polyester,672,672,176,12,118272,104079.36,104079.36,Match,Delivered,Delivered,UPI,UPI,Sep,Q3,2026
+ORDX00354,4/10/2026,C108,Punjab Cloth Market,Punjab,North,North,TX209,Workwear Poly,Poly Cotton,216,216,217,10,46872,42184.8,42184.8,Match,Delivered,Delivered,UPI,UPI,Apr,Q2,2026
+ORDX00355,2/5/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX208,Athleisure Knit,Cotton Lycra,442,442,289,5,127738,121351.1,121351.1,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Feb,Q1,2026
+ORDX00356,8/8/2026,C107,Coastal Cotton Co,Kerala,South,South,TX203,Premium Denim,Denim,304,304,334,15,101536,86305.6,86305.6,Match,Delivered,Delivered,Credit,Credit,Aug,Q3,2026
+ORDX00357,2/13/2026,C109,Odisha Style Mills,Odisha,East,East,TX206,Silk Fusion,Silk Blend,262,262,605,15,158510,134733.5,134733.5,Match,Delivered,Delivered,Credit,Credit,Feb,Q1,2026
+ORDX00358,1/21/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX209,Workwear Poly,Poly Cotton,230,230,190,2,43700,42826,42826,Match,Processing,Processing,Credit,Credit,Jan,Q1,2026
+ORDX00359,5/23/2026,C108,Punjab Cloth Market,Punjab,North,North,TX204,Rayon Flex,Rayon,233,233,234,8,54522,50160.24,50160.24,Match,Processing,Processing,UPI,UPI,May,Q2,2026
+ORDX00360,1/21/2026,C105,Northern Apparel Works,Delhi,North,North,TX210,Matte Polyester,Polyester,116,116,172,8,19952,18355.84,18355.84,Match,Shipped,Shipped,Wallet,Wallet,Jan,Q1,2026
+ORDX00361,12/11/2026,C108,Punjab Cloth Market,Punjab,,#REF!,TX201,Organic Cotton,Cotton,418,418,234,5,97812,92921.4,92921.4,Match,Delivered,Delivered,UPI,UPI,Dec,Q4,2026
+ORDX00362,7/15/2026,C102,Metro Fabric House,Maharashtra,West,West,TX205,Linen Touch,Linen Blend,524,524,381,0,199644,199644,199644,Match,Shipped,Shipped,UPI,UPI,Jul,Q3,2026
+ORDX00363,3/2/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX208,Athleisure Knit,Cotton Lycra,607,607,307,2,186349,182622.02,182622.02,Match,Shipped,Shipped,UPI,UPI,Mar,Q1,2026
+ORDX00364,6/26/2026,C107,Coastal Cotton Co,Kerala,South,South,TX206,Silk Fusion,Silk Blend,563,563,600,2,337800,331044,331044,Match,Delivered,Delivered,Credit,Credit,Jun,Q2,2026
+ORDX00365,12/7/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX210,Matte Polyester,Polyester,551,551,191,2,105241,103136.18,103136.18,Match,Processing,Processing,Credit,Credit,Dec,Q4,2026
+ORDX00366,5/24/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX202,Printed Cambric,Printed Cotton,469,469,251,8,117719,108301.48,108301.48,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,May,Q2,2026
+ORDX00367,4/9/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX210,Matte Polyester,Polyester,277,277,186,12,51522,45339.36,45339.36,Match,Delivered,Delivered,Wallet,Wallet,Apr,Q2,2026
+ORDX00368,3/9/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX210,Matte Polyester,Polyester,248,248,193,12,47864,42120.32,42120.32,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Mar,Q1,2026
+ORDX00369,6/17/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX209,Workwear Poly,Poly Cotton,92,92,215,5,19780,18791,18791,Match,Delivered,Delivered,Credit,Credit,Jun,Q2,2026
+ORDX00370,9/11/2026,C109,Odisha Style Mills,Odisha,East,East,TX208,Athleisure Knit,Cotton Lycra,78,78,289,0,22542,22542,22542,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Sep,Q3,2026
+ORDX00371,6/27/2026,C107,Coastal Cotton Co,Kerala,South,South,TX209,Workwear Poly,Poly Cotton,461,461,194,3,89434,86750.98,86750.98,Match,Returned,Returned,Bank Transfer,Bank Transfer,Jun,Q2,2026
+ORDX00372,10/24/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX208,Athleisure Knit,Cotton Lycra,198,198,300,8,59400,54648,54648,Match,Delivered,Delivered,UPI,UPI,Oct,Q4,2026
+ORDX00373,2/11/2026,C108,Punjab Cloth Market,Punjab,North,North,TX202,Printed Cambric,Printed Cotton,502,502,256,10,128512,115660.8,115660.8,Match,Delivered,Delivered,Cash,Cash,Feb,Q1,2026
+ORDX00374,12/29/2026,C103,LoomCraft India,Karnataka,South,South,TX202,Printed Cambric,Printed Cotton,74,74,245,10,18130,16317,16317,Match,Shipped,Shipped,Wallet,Wallet,Dec,Q4,2026
+ORDX00375,9/17/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX205,Linen Touch,Linen Blend,400,400,393,10,157200,141480,141480,Match,Cancelled,Cancelled,Bank Transfer,Bank Transfer,Sep,Q3,2026
+ORDX00376,1/16/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX207,Poly Viscose,Viscose,163,163,212,12,34556,30409.28,30409.28,Match,Returned,Returned,Wallet,Wallet,Jan,Q1,2026
+ORDX00377,4/12/2026,C102,Metro Fabric House,Maharashtra,West,West,TX204,Rayon Flex,Rayon,540,540,251,12,135540,119275.2,119275.2,Match,Delivered,Delivered,Cash,Cash,Apr,Q2,2026
+ORDX00378,5/11/2026,C105,Northern Apparel Works,Delhi,North,North,TX209,Workwear Poly,Poly Cotton,387,387,214,5,82818,78677.1,78677.1,Match,Processing,Processing,Credit,Credit,May,Q2,2026
+ORDX00379,7/8/2026,C105,Northern Apparel Works,Delhi,North,North,TX203,Premium Denim,Denim,510,510,333,8,169830,156243.6,156243.6,Match,Processing,Processing,Credit,Credit,Jul,Q3,2026
+ORDX00380,3/1/2026,C106,Royal Weave Traders,Gujarat,West,West,TX203,Premium Denim,Denim,411,411,326,3,133986,129966.42,129966.42,Match,Processing,Processing,Bank Transfer,Bank Transfer,Mar,Q1,2026
+ORDX00381,8/4/2026,C109,Odisha Style Mills,Odisha,East,East,TX205,Linen Touch,Linen Blend,260,260,377,10,98020,88218,88218,Match,Processing,Processing,Credit,Credit,Aug,Q3,2026
+ORDX00382,8/6/2026,C105,Northern Apparel Works,Delhi,North,North,TX208,Athleisure Knit,Cotton Lycra,224,224,300,0,67200,67200,67200,Match,Delivered,Delivered,Credit,Credit,Aug,Q3,2026
+ORDX00383,12/4/2026,C109,Odisha Style Mills,Odisha,East,East,TX203,Premium Denim,Denim,348,348,349,3,121452,117808.44,117808.44,Match,Delivered,Delivered,UPI,UPI,Dec,Q4,2026
+ORDX00384,10/16/2026,C105,Northern Apparel Works,Delhi,North,North,TX203,Premium Denim,Denim,306,306,326,2,99756,97760.88,97760.88,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Oct,Q4,2026
+ORDX00385,7/20/2026,C107,Coastal Cotton Co,Kerala,South,South,TX206,Silk Fusion,Silk Blend,694,694,595,5,412930,392283.5,392283.5,Match,Processing,Processing,Cash,Cash,Jul,Q3,2026
+ORDX00386,10/30/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX210,Matte Polyester,Polyester,177,177,190,12,33630,29594.4,29594.4,Match,Delivered,Delivered,Wallet,Wallet,Oct,Q4,2026
+ORDX00387,5/22/2026,C105,Northern Apparel Works,Delhi,North,North,TX204,Rayon Flex,Rayon,494,494,231,0,114114,114114,114114,Match,Processing,Processing,Bank Transfer,Bank Transfer,May,Q2,2026
+ORDX00388,8/13/2026,C102,Metro Fabric House,Maharashtra,West,West,TX203,Premium Denim,Denim,680,680,351,3,238680,231519.6,231519.6,Match,Delivered,Delivered,Cash,Cash,Aug,Q3,2026
+ORDX00389,2/15/2026,C102,Metro Fabric House,Maharashtra,West,West,TX208,Athleisure Knit,Cotton Lycra,584,584,283,10,165272,148744.8,148744.8,Match,Delivered,Delivered,Cash,Cash,Feb,Q1,2026
+ORDX00390,10/8/2026,C103,LoomCraft India,Karnataka,South,South,TX204,Rayon Flex,Rayon,458,458,238,15,109004,92653.4,92653.4,Match,Cancelled,Cancelled,UPI,UPI,Oct,Q4,2026
+ORDX00391,10/2/2026,C103,LoomCraft India,Karnataka,South,South,TX203,Premium Denim,Denim,318,318,337,5,107166,101807.7,101807.7,Match,Returned,Returned,UPI,UPI,Oct,Q4,2026
+ORDX00392,5/1/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX207,Poly Viscose,Viscose,542,542,214,3,115988,112508.36,112508.36,Match,Delivered,Delivered,Wallet,Wallet,May,Q2,2026
+ORDX00393,10/13/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX208,Athleisure Knit,Cotton Lycra,299,299,280,15,83720,71162,71162,Match,Delivered,Delivered,UPI,UPI,Oct,Q4,2026
+ORDX00394,8/15/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX205,Linen Touch,Linen Blend,368,368,383,10,140944,126849.6,126849.6,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Aug,Q3,2026
+ORDX00395,1/2/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX208,Athleisure Knit,Cotton Lycra,671,671,301,10,201971,181773.9,181773.9,Match,Cancelled,Cancelled,Wallet,Wallet,Jan,Q1,2026
+ORDX00396,9/24/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX203,Premium Denim,Denim,610,610,342,10,208620,187758,187758,Match,Delivered,Delivered,Wallet,Wallet,Sep,Q3,2026
+ORDX00397,12/23/2026,C105,Northern Apparel Works,Delhi,North,North,TX204,Rayon Flex,Rayon,235,235,233,8,54755,50374.6,50374.6,Match,Shipped,Shipped,UPI,UPI,Dec,Q4,2026
+ORDX00398,3/6/2026,C102,Metro Fabric House,Maharashtra,West,West,TX208,Athleisure Knit,Cotton Lycra,42,42,302,8,12684,11669.28,11669.28,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Mar,Q1,2026
+ORDX00399,5/27/2026,C106,Royal Weave Traders,Gujarat,West,West,TX209,Workwear Poly,Poly Cotton,60,60,218,5,13080,12426,12426,Match,Delivered,Delivered,Wallet,Wallet,May,Q2,2026
+ORDX00400,10/3/2026,C103,LoomCraft India,Karnataka,South,South,TX206,Silk Fusion,Silk Blend,539,539,613,8,330407,303974.44,303974.44,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Oct,Q4,2026
+ORDX00401,3/17/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX204,Rayon Flex,Rayon,613,613,236,10,144668,130201.2,130201.2,Match,Returned,Returned,Credit,Credit,Mar,Q1,2026
+ORDX00402,12/27/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX207,Poly Viscose,Viscose,618,618,205,12,126690,111487.2,111487.2,Match,Delivered,Delivered,UPI,UPI,Dec,Q4,2026
+ORDX00403,3/2/2026,C102,Metro Fabric House,Maharashtra,West,West,TX201,Organic Cotton,Cotton,296,296,236,2,69856,68458.88,68458.88,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Mar,Q1,2026
+ORDX00404,4/3/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX201,Organic Cotton,Cotton,655,655,212,0,138860,138860,138860,Match,Delivered,Delivered,Cash,Cash,Apr,Q2,2026
+ORDX00405,6/26/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX208,Athleisure Knit,Cotton Lycra,687,687,285,8,195795,180131.4,180131.4,Match,Processing,Processing,UPI,UPI,Jun,Q2,2026
+ORDX00406,12/19/2026,C108,Punjab Cloth Market,Punjab,North,North,TX204,Rayon Flex,Rayon,636,636,245,12,155820,137121.6,137121.6,Match,Delivered,Delivered,Credit,Credit,Dec,Q4,2026
+ORDX00407,8/21/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX206,Silk Fusion,Silk Blend,378,378,611,8,230958,212481.36,212481.36,Match,Shipped,Shipped,Wallet,Wallet,Aug,Q3,2026
+ORDX00408,7/2/2026,C103,LoomCraft India,Karnataka,South,South,TX207,Poly Viscose,Viscose,75,75,212,12,15900,13992,13992,Match,Shipped,Shipped,Cash,Cash,Jul,Q3,2026
+ORDX00409,6/17/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX201,Organic Cotton,Cotton,654,654,221,3,144534,140197.98,140197.98,Match,Cancelled,Cancelled,Wallet,Wallet,Jun,Q2,2026
+ORDX00410,10/28/2026,C105,Northern Apparel Works,Delhi,North,North,TX201,Organic Cotton,Cotton,636,636,237,12,150732,132644.16,132644.16,Match,Processing,Processing,UPI,UPI,Oct,Q4,2026
+ORDX00411,6/7/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX207,Poly Viscose,Viscose,465,465,216,12,100440,88387.2,88387.2,Match,Shipped,Shipped,Credit,Credit,Jun,Q2,2026
+ORDX00412,11/20/2026,C102,Metro Fabric House,Maharashtra,West,West,TX202,Printed Cambric,Printed Cotton,673,673,262,5,176326,167509.7,167509.7,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Nov,Q4,2026
+ORDX00413,4/23/2026,C108,Punjab Cloth Market,Punjab,North,North,TX204,Rayon Flex,Rayon,366,366,243,2,88938,87159.24,87159.24,Match,Delivered,Delivered,Credit,Credit,Apr,Q2,2026
+ORDX00414,11/3/2026,C109,Odisha Style Mills,Odisha,East,East,TX210,Matte Polyester,Polyester,300,300,187,10,56100,50490,50490,Match,Delivered,Delivered,UPI,UPI,Nov,Q4,2026
+ORDX00415,1/28/2026,C109,Odisha Style Mills,Odisha,,#REF!,TX207,Poly Viscose,Viscose,118,118,226,10,26668,24001.2,24001.2,Match,Shipped,Shipped,Wallet,Wallet,Jan,Q1,2026
+ORDX00416,12/16/2026,C106,Royal Weave Traders,Gujarat,West,West,TX203,Premium Denim,Denim,330,330,341,2,112530,110279.4,110279.4,Match,Shipped,Shipped,Bank Transfer,Bank Transfer,Dec,Q4,2026
+ORDX00417,11/7/2026,C103,LoomCraft India,Karnataka,South,South,TX201,Organic Cotton,Cotton,391,391,239,8,93449,85973.08,85973.08,Match,Delivered,Delivered,UPI,UPI,Nov,Q4,2026
+ORDX00418,10/21/2026,C107,Coastal Cotton Co,Kerala,South,South,TX208,Athleisure Knit,Cotton Lycra,311,311,290,10,90190,81171,81171,Match,Delivered,Delivered,Cash,Cash,Oct,Q4,2026
+ORDX00419,5/2/2026,C107,Coastal Cotton Co,Kerala,South,South,TX209,Workwear Poly,Poly Cotton,64,64,201,5,12864,12220.8,12220.8,Match,Processing,Processing,Cash,Cash,May,Q2,2026
+ORDX00420,3/4/2026,C103,LoomCraft India,Karnataka,South,South,TX209,Workwear Poly,Poly Cotton,57,57,200,15,11400,9690,9690,Match,Shipped,Shipped,Credit,Credit,Mar,Q1,2026
+ORDX00421,4/28/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX209,Workwear Poly,Poly Cotton,646,646,190,5,122740,116603,116603,Match,Delivered,Delivered,Credit,Credit,Apr,Q2,2026
+ORDX00422,1/7/2026,C108,Punjab Cloth Market,Punjab,North,North,TX205,Linen Touch,Linen Blend,230,230,398,8,91540,84216.8,84216.8,Match,Processing,Processing,Bank Transfer,Bank Transfer,Jan,Q1,2026
+ORDX00423,5/6/2026,C103,LoomCraft India,Karnataka,South,South,TX210,Matte Polyester,Polyester,429,429,186,0,79794,79794,79794,Match,Shipped,Shipped,Wallet,Wallet,May,Q2,2026
+ORDX00424,6/25/2026,C108,Punjab Cloth Market,Punjab,North,North,TX202,Printed Cambric,Printed Cotton,662,662,256,15,169472,144051.2,144051.2,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Jun,Q2,2026
+ORDX00425,11/21/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX202,Printed Cambric,Printed Cotton,410,410,271,15,111110,94443.5,94443.5,Match,Delivered,Delivered,Wallet,Wallet,Nov,Q4,2026
+ORDX00426,6/4/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX210,Matte Polyester,Polyester,464,464,180,10,83520,75168,75168,Match,Delivered,Delivered,Credit,Credit,Jun,Q2,2026
+ORDX00427,9/19/2026,C103,LoomCraft India,Karnataka,South,South,TX202,Printed Cambric,Printed Cotton,159,159,265,12,42135,37078.8,37078.8,Match,Delivered,Delivered,Wallet,Wallet,Sep,Q3,2026
+ORDX00428,6/19/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX205,Linen Touch,Linen Blend,158,158,377,8,59566,54800.72,54800.72,Match,Cancelled,Cancelled,Bank Transfer,Bank Transfer,Jun,Q2,2026
+ORDX00429,10/12/2026,C102,Metro Fabric House,Maharashtra,West,West,TX209,Workwear Poly,Poly Cotton,111,111,204,3,22644,21964.68,21964.68,Match,Delivered,Delivered,UPI,UPI,Oct,Q4,2026
+ORDX00430,3/10/2026,C106,Royal Weave Traders,Gujarat,West,West,TX204,Rayon Flex,Rayon,199,199,241,0,47959,47959,47959,Match,Delivered,Delivered,Wallet,Wallet,Mar,Q1,2026
+ORDX00431,12/9/2026,C106,Royal Weave Traders,Gujarat,West,West,TX205,Linen Touch,Linen Blend,588,588,387,2,227556,223004.88,223004.88,Match,Delivered,Delivered,UPI,UPI,Dec,Q4,2026
+ORDX00432,10/27/2026,C105,Northern Apparel Works,Delhi,North,North,TX205,Linen Touch,Linen Blend,173,173,378,12,65394,57546.72,57546.72,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Oct,Q4,2026
+ORDX00433,4/21/2026,C108,Punjab Cloth Market,Punjab,North,North,TX203,Premium Denim,Denim,173,173,343,5,59339,56372.05,56372.05,Match,Processing,Processing,Cash,Cash,Apr,Q2,2026
+ORDX00434,4/14/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX202,Printed Cambric,Printed Cotton,248,248,268,0,66464,66464,66464,Match,Shipped,Shipped,Wallet,Wallet,Apr,Q2,2026
+ORDX00435,1/8/2026,C107,Coastal Cotton Co,Kerala,South,South,TX205,Linen Touch,Linen Blend,318,318,391,8,124338,114390.96,114390.96,Match,Shipped,Shipped,Cash,Cash,Jan,Q1,2026
+ORDX00436,12/20/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX205,Linen Touch,Linen Blend,301,301,387,10,116487,104838.3,104838.3,Match,Delivered,Delivered,Wallet,Wallet,Dec,Q4,2026
+ORDX00437,1/5/2026,C106,Royal Weave Traders,Gujarat,West,West,TX207,Poly Viscose,Viscose,218,218,208,5,45344,43076.8,43076.8,Match,Processing,Processing,Bank Transfer,Bank Transfer,Jan,Q1,2026
+ORDX00438,5/27/2026,C106,Royal Weave Traders,Gujarat,West,West,TX201,Organic Cotton,Cotton,338,338,221,5,74698,70963.1,70963.1,Match,Processing,Processing,Credit,Credit,May,Q2,2026
+ORDX00439,3/16/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX206,Silk Fusion,Silk Blend,451,451,618,10,278718,250846.2,250846.2,Match,Delivered,Delivered,Cash,Cash,Mar,Q1,2026
+ORDX00440,8/30/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX209,Workwear Poly,Poly Cotton,499,499,210,3,104790,101646.3,101646.3,Match,Returned,Returned,Credit,Credit,Aug,Q3,2026
+ORDX00441,6/24/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX203,Premium Denim,Denim,399,399,340,3,135660,131590.2,131590.2,Match,Returned,Returned,Bank Transfer,Bank Transfer,Jun,Q2,2026
+ORDX00442,8/13/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX201,Organic Cotton,Cotton,181,181,215,12,38915,34245.2,34245.2,Match,Delivered,Delivered,Wallet,Wallet,Aug,Q3,2026
+ORDX00443,1/22/2026,C107,Coastal Cotton Co,Kerala,South,South,TX202,Printed Cambric,Printed Cotton,383,383,255,10,97665,87898.5,87898.5,Match,processing,Processing,Credit,Credit,Jan,Q1,2026
+ORDX00444,7/23/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX205,Linen Touch,Linen Blend,228,228,398,0,90744,90744,90744,Match,Shipped,Shipped,UPI,UPI,Jul,Q3,2026
+ORDX00445,9/21/2026,C103,LoomCraft India,Karnataka,South,South,TX203,Premium Denim,Denim,147,147,331,15,48657,41358.45,41358.45,Match,Delivered,Delivered,Cash,Cash,Sep,Q3,2026
+ORDX00446,1/25/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX204,Rayon Flex,Rayon,583,583,239,0,139337,139337,139337,Match,Delivered,Delivered,Wallet,Wallet,Jan,Q1,2026
+ORDX00447,5/7/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX209,Workwear Poly,Poly Cotton,291,291,192,5,55872,53078.4,53078.4,Match,Shipped,Shipped,upi,UPI,May,Q2,2026
+ORDX00448,12/24/2026,C102,Metro Fabric House,Maharashtra,West,West,TX204,Rayon Flex,Rayon,109,109,232,3,25288,24529.36,24529.36,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Dec,Q4,2026
+ORDX00449,5/3/2026,C102,Metro Fabric House,Maharashtra,West,West,TX203,Premium Denim,Denim,392,392,326,15,127792,108623.2,108623.2,Match,Delivered,Delivered,Credit,Credit,May,Q2,2026
+ORDX00450,7/7/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX206,Silk Fusion,Silk Blend,356,356,620,2,220720,216305.6,216305.6,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Jul,Q3,2026
+ORDX00451,8/3/2026,C102,Metro Fabric House,Maharashtra,West,West,TX207,Poly Viscose,Viscose,666,666,222,10,147852,133066.8,133066.8,Match,Cancelled,Cancelled,Wallet,Wallet,Aug,Q3,2026
+ORDX00452,10/22/2026,C107,Coastal Cotton Co,Kerala,South,South,TX205,Linen Touch,Linen Blend,355,355,383,0,135965,135965,135965,Match,Delivered,Delivered,Wallet,Wallet,Oct,Q4,2026
+ORDX00453,2/22/2026,C105,Northern Apparel Works,Delhi,North,North,TX203,Premium Denim,Denim,347,347,346,0,120062,120062,120062,Match,Delivered,Delivered,Credit,Credit,Feb,Q1,2026
+ORDX00454,2/23/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX204,Rayon Flex,Rayon,598,598,242,5,144716,137480.2,137480.2,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Feb,Q1,2026
+ORDX00455,12/1/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX205,Linen Touch,Linen Blend,56,56,405,10,22680,20412,20412,Match,Delivered,Delivered,Cash,Cash,Dec,Q4,2026
+ORDX00456,1/12/2026,C107,Coastal Cotton Co,Kerala,South,South,TX208,Athleisure Knit,Cotton Lycra,665,665,293,12,194845,171463.6,171463.6,Match,Cancelled,Cancelled,Credit,Credit,Jan,Q1,2026
+ORDX00457,7/23/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX209,Workwear Poly,Poly Cotton,595,595,214,12,127330,112050.4,112050.4,Match,Delivered,Delivered,Credit,Credit,Jul,Q3,2026
+ORDX00458,4/6/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX202,Printed Cambric,Printed Cotton,328,328,267,0,87576,87576,87576,Match,Shipped,Shipped,UPI,UPI,Apr,Q2,2026
+ORDX00459,11/16/2026,C106,Royal Weave Traders,Gujarat,West,West,TX205,Linen Touch,Linen Blend,191,191,385,5,73535,69858.25,69858.25,Match,Processing,Processing,Cash,Cash,Nov,Q4,2026
+ORDX00460,6/11/2026,C103,LoomCraft India,Karnataka,South,South,TX209,Workwear Poly,Poly Cotton,462,462,193,5,89166,84707.7,84707.7,Match,Cancelled,Cancelled,Cash,Cash,Jun,Q2,2026
+ORDX00461,7/17/2026,C103,LoomCraft India,Karnataka,South,South,TX201,Organic Cotton,Cotton,658,658,221,15,145418,123605.3,123605.3,Match,Shipped,Shipped,UPI,UPI,Jul,Q3,2026
+ORDX00462,8/6/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX207,Poly Viscose,Viscose,666,666,209,12,139194,122490.72,122490.72,Match,Delivered,Delivered,Wallet,Wallet,Aug,Q3,2026
+ORDX00463,1/24/2026,C105,Northern Apparel Works,Delhi,North,North,TX205,Linen Touch,Linen Blend,557,557,378,0,210546,210546,210546,Match,Shipped,Shipped,UPI,UPI,Jan,Q1,2026
+ORDX00464,7/30/2026,C105,Northern Apparel Works,Delhi,North,North,TX204,Rayon Flex,Rayon,686,686,234,8,160524,147682.08,147682.08,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Jul,Q3,2026
+ORDX00465,10/30/2026,C109,Odisha Style Mills,Odisha,East,East,TX203,Premium Denim,Denim,530,530,338,2,179140,175557.2,175557.2,Match,Processing,Processing,UPI,UPI,Oct,Q4,2026
+ORDX00466,1/13/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX207,Poly Viscose,Viscose,244,244,212,8,51728,47589.76,47589.76,Match,Delivered,Delivered,Credit,Credit,Jan,Q1,2026
+ORDX00467,6/15/2026,C109,Odisha Style Mills,Odisha,East,East,TX209,Workwear Poly,Poly Cotton,493,493,213,10,105009,94508.1,94508.1,Match,Shipped,Shipped,Bank Transfer,Bank Transfer,Jun,Q2,2026
+ORDX00468,8/4/2026,C107,Coastal Cotton Co,Kerala,South,South,TX202,Printed Cambric,Printed Cotton,297,297,262,5,77814,73923.3,73923.3,Match,Shipped,Shipped,Bank Transfer,Bank Transfer,Aug,Q3,2026
+ORDX00469,1/28/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX205,Linen Touch,Linen Blend,522,522,396,10,206712,186040.8,186040.8,Match,Delivered,Delivered,Wallet,Wallet,Jan,Q1,2026
+ORDX00470,1/13/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX203,Premium Denim,Denim,347,347,346,0,120062,120062,120062,Match,Processing,Processing,Wallet,Wallet,Jan,Q1,2026
+ORDX00471,3/15/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX205,Linen Touch,Linen Blend,592,592,379,8,224368,206418.56,206418.56,Match,Cancelled,Cancelled,Credit,Credit,Mar,Q1,2026
+ORDX00472,12/22/2026,C106,Royal Weave Traders,Gujarat,West,West,TX201,Organic Cotton,Cotton,432,432,212,2,91584,89752.32,89752.32,Match,Delivered,Delivered,UPI,UPI,Dec,Q4,2026
+ORDX00473,1/24/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX206,Silk Fusion,Silk Blend,575,575,619,3,355925,345247.25,345247.25,Match,Returned,Returned,Bank Transfer,Bank Transfer,Jan,Q1,2026
+ORDX00474,11/17/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX206,Silk Fusion,Silk Blend,153,153,610,5,93330,88663.5,88663.5,Match,Processing,Processing,bank transfer,Bank Transfer,Nov,Q4,2026
+ORDX00475,6/30/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX206,Silk Fusion,Silk Blend,209,209,603,10,126027,113424.3,113424.3,Match,Delivered,Delivered,Wallet,Wallet,Jun,Q2,2026
+ORDX00476,2/24/2026,C109,Odisha Style Mills,Odisha,East,East,TX201,Organic Cotton,Cotton,553,553,234,5,129402,122931.9,122931.9,Match,Delivered,Delivered,Cash,Cash,Feb,Q1,2026
+ORDX00477,5/15/2026,C105,Northern Apparel Works,Delhi,North,North,TX204,Rayon Flex,Rayon,262,262,243,12,63666,56026.08,56026.08,Match,Delivered,Delivered,Cash,Cash,May,Q2,2026
+ORDX00478,8/5/2026,C108,Punjab Cloth Market,Punjab,North,North,TX201,Organic Cotton,Cotton,538,538,222,15,119436,101520.6,101520.6,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Aug,Q3,2026
+ORDX00479,6/6/2026,C108,Punjab Cloth Market,Punjab,North,North,TX203,Premium Denim,Denim,644,644,352,2,226688,222154.24,222154.24,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Jun,Q2,2026
+ORDX00480,1/4/2026,C107,Coastal Cotton Co,Kerala,South,South,TX210,Matte Polyester,Polyester,636,636,178,15,113208,96226.8,96226.8,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Jan,Q1,2026
+ORDX00481,8/21/2026,C102,Metro Fabric House,Maharashtra,West,West,TX206,Silk Fusion,Silk Blend,563,563,620,3,349060,338588.2,338588.2,Match,Delivered,Delivered,Credit,Credit,Aug,Q3,2026
+ORDX00482,1/25/2026,C109,Odisha Style Mills,Odisha,East,East,TX210,Matte Polyester,Polyester,428,428,182,3,77896,75559.12,75559.12,Match,Delivered,Delivered,Wallet,Wallet,Jan,Q1,2026
+ORDX00483,12/26/2026,C105,Northern Apparel Works,Delhi,North,North,TX208,Athleisure Knit,Cotton Lycra,102,102,310,12,31620,27825.6,27825.6,Match,Shipped,Shipped,Cash,Cash,Dec,Q4,2026
+ORDX00484,6/24/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX201,Organic Cotton,Cotton,598,598,233,10,139334,125400.6,125400.6,Match,Shipped,Shipped,UPI,UPI,Jun,Q2,2026
+ORDX00485,10/9/2026,C109,Odisha Style Mills,Odisha,East,East,TX202,Printed Cambric,Printed Cotton,39,39,264,5,10296,9781.2,9781.2,Match,Delivered,Delivered,UPI,UPI,Oct,Q4,2026
+ORDX00486,8/14/2026,C102,Metro Fabric House,Maharashtra,West,West,TX206,Silk Fusion,Silk Blend,49,49,623,15,30527,25947.95,25947.95,Match,Cancelled,Cancelled,Wallet,Wallet,Aug,Q3,2026
+ORDX00487,3/3/2026,C106,Royal Weave Traders,Gujarat,West,West,TX206,Silk Fusion,Silk Blend,632,632,612,10,386784,348105.6,348105.6,Match,Delivered,Delivered,Wallet,Wallet,Mar,Q1,2026
+ORDX00488,4/3/2026,C103,LoomCraft India,Karnataka,South,South,TX206,Silk Fusion,Silk Blend,554,554,607,5,336278,319464.1,319464.1,Match,Delivered,Delivered,UPI,UPI,Apr,Q2,2026
+ORDX00489,1/11/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX202,Printed Cambric,Printed Cotton,526,526,253,10,133078,119770.2,119770.2,Match,Delivered,Delivered,Cash,Cash,Jan,Q1,2026
+ORDX00490,11/16/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX208,Athleisure Knit,Cotton Lycra,124,124,304,10,37696,33926.4,33926.4,Match,Delivered,Delivered,Wallet,Wallet,Nov,Q4,2026
+ORDX00491,1/19/2026,C109,Odisha Style Mills,Odisha,East,East,TX202,Printed Cambric,Printed Cotton,345,345,266,10,91770,82593,82593,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Jan,Q1,2026
+ORDX00492,10/12/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX203,Premium Denim,Denim,605,605,326,8,197230,181451.6,181451.6,Match,Shipped,Shipped,Cash,Cash,Oct,Q4,2026
+ORDX00493,9/4/2026,C105,Northern Apparel Works,Delhi,North,North,TX202,Printed Cambric,Printed Cotton,554,554,254,8,140716,129458.72,129458.72,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Sep,Q3,2026
+ORDX00494,3/22/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX207,Poly Viscose,Viscose,221,221,223,5,49283,46818.85,46818.85,Match,Processing,Processing,Wallet,Wallet,Mar,Q1,2026
+ORDX00495,3/15/2026,C106,Royal Weave Traders,Gujarat,West,West,TX209,Workwear Poly,Poly Cotton,-582,582,217,8,126294,116190.48,116190.48,Match,Cancelled,Cancelled,Credit,Credit,Mar,Q1,2026
+ORDX00496,8/4/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX205,Linen Touch,Linen Blend,204,204,382,5,77928,74031.6,74031.6,Match,Processing,Processing,Cash,Cash,Aug,Q3,2026
+ORDX00497,6/4/2026,C106,Royal Weave Traders,Gujarat,West,West,TX205,Linen Touch,Linen Blend,383,383,386,3,147838,143402.86,143402.86,Match,Shipped,Shipped,Credit,Credit,Jun,Q2,2026
+ORDX00498,9/5/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX209,Workwear Poly,Poly Cotton,281,281,191,3,53671,52060.87,52060.87,Match,Returned,Returned,UPI,UPI,Sep,Q3,2026
+ORDX00499,11/19/2026,C107,Coastal Cotton Co,Kerala,South,South,TX201,Organic Cotton,Cotton,438,438,239,8,104682,96307.44,96307.44,Match,Cancelled,Cancelled,UPI,UPI,Nov,Q4,2026
+ORDX00500,7/25/2026,C107,Coastal Cotton Co,Kerala,South,South,TX210,Matte Polyester,Polyester,51,51,182,2,9282,9096.36,9096.36,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Jul,Q3,2026
+ORDX00501,11/20/2026,C105,Northern Apparel Works,Delhi,North,North,TX202,Printed Cambric,Printed Cotton,148,148,270,0,39960,39960,39960,Match,Processing,Processing,Bank Transfer,Bank Transfer,Nov,Q4,2026
+ORDX00502,9/23/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX207,Poly Viscose,Viscose,349,349,208,3,72592,70414.24,70414.24,Match,Delivered,Delivered,Credit,Credit,Sep,Q3,2026
+ORDX00503,10/5/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX201,Organic Cotton,Cotton,388,388,222,15,86136,73215.6,73215.6,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Oct,Q4,2026
+ORDX00504,5/29/2026,C105,Northern Apparel Works,Delhi,North,North,TX208,Athleisure Knit,Cotton Lycra,133,133,305,5,40565,38536.75,38536.75,Match,Processing,Processing,Wallet,Wallet,May,Q2,2026
+ORDX00505,10/30/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX207,Poly Viscose,Viscose,361,361,207,2,74727,73232.46,73232.46,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Oct,Q4,2026
+ORDX00506,3/25/2026,C107,Coastal Cotton Co,Kerala,South,South,TX210,Matte Polyester,Polyester,433,433,189,2,81837,80200.26,80200.26,Match,Delivered,Delivered,UPI,UPI,Mar,Q1,2026
+ORDX00507,2/15/2026,C103,LoomCraft India,Karnataka,South,South,TX207,Poly Viscose,Viscose,528,528,226,0,119328,119328,119328,Match,Delivered,Delivered,Cash,Cash,Feb,Q1,2026
+ORDX00508,7/14/2026,C105,Northern Apparel Works,Delhi,North,North,TX201,Organic Cotton,Cotton,401,401,236,15,94636,80440.6,80440.6,Match,Processing,Processing,Wallet,Wallet,Jul,Q3,2026
+ORDX00509,1/24/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX202,Printed Cambric,Printed Cotton,570,570,248,2,141360,138532.8,138532.8,Match,Delivered,Delivered,UPI,UPI,Jan,Q1,2026
+ORDX00510,6/30/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX207,Poly Viscose,Viscose,282,282,222,5,62604,59473.8,59473.8,Match,Cancelled,Cancelled,Wallet,Wallet,Jun,Q2,2026
+ORDX00511,9/6/2026,C109,Odisha Style Mills,Odisha,East,East,TX209,Workwear Poly,Poly Cotton,600,600,194,10,116400,104760,104760,Match,Shipped,Shipped,Wallet,Wallet,Sep,Q3,2026
+ORDX00512,6/28/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX203,Premium Denim,Denim,376,376,328,12,123328,108528.64,108528.64,Match,Returned,Returned,Cash,Cash,Jun,Q2,2026
+ORDX00513,12/9/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX209,Workwear Poly,Poly Cotton,340,340,219,10,74460,67014,67014,Match,Processing,Processing,Cash,Cash,Dec,Q4,2026
+ORDX00514,2/16/2026,C103,LoomCraft India,Karnataka,South,South,TX209,Workwear Poly,Poly Cotton,585,585,213,15,124605,105914.25,105914.25,Match,Processing,Processing,Wallet,Wallet,Feb,Q1,2026
+ORDX00515,9/29/2026,C108,Punjab Cloth Market,Punjab,North,North,TX201,Organic Cotton,Cotton,605,605,240,12,145200,127776,127776,Match,Processing,Processing,Cash,Cash,Sep,Q3,2026
+ORDX00516,5/19/2026,C102,Metro Fabric House,Maharashtra,West,West,TX209,Workwear Poly,Poly Cotton,514,514,211,2,108454,106284.92,106284.92,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,May,Q2,2026
+ORDX00517,5/3/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX209,Workwear Poly,Poly Cotton,136,136,190,0,25840,25840,25840,Match,Shipped,Shipped,Cash,Cash,May,Q2,2026
+ORDX00518,3/29/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX201,Organic Cotton,Cotton,228,228,224,15,51072,43411.2,43411.2,Match,Shipped,Shipped,Cash,Cash,Mar,Q1,2026
+ORDX00519,6/16/2026,C106,Royal Weave Traders,Gujarat,West,West,TX201,Organic Cotton,Cotton,543,543,234,10,127062,114355.8,114355.8,Match,Delivered,Delivered,Cash,Cash,Jun,Q2,2026
+ORDX00520,5/21/2026,C109,Odisha Style Mills,Odisha,East,East,TX209,Workwear Poly,Poly Cotton,616,616,209,10,128744,115869.6,115869.6,Match,Returned,Returned,Cash,Cash,May,Q2,2026
+ORDX00521,3/17/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX201,Organic Cotton,Cotton,209,209,232,8,48488,44608.96,44608.96,Match,Delivered,Delivered,upi,UPI,Mar,Q1,2026
+ORDX00522,9/28/2026,C103,LoomCraft India,Karnataka,South,South,TX210,Matte Polyester,Polyester,134,134,173,15,23182,19704.7,19704.7,Match,Delivered,Delivered,Cash,Cash,Sep,Q3,2026
+ORDX00523,3/19/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX204,Rayon Flex,Rayon,304,304,253,2,76912,75373.76,75373.76,Match,Delivered,Delivered,Cash,Cash,Mar,Q1,2026
+ORDX00524,6/17/2026,C103,LoomCraft India,Karnataka,South,South,TX206,Silk Fusion,Silk Blend,373,373,595,8,221935,204180.2,204180.2,Match,Delivered,Delivered,Wallet,Wallet,Jun,Q2,2026
+ORDX00525,7/23/2026,C103,LoomCraft India,Karnataka,South,South,TX203,Premium Denim,Denim,626,626,335,3,209710,203418.7,203418.7,Match,Processing,Processing,Bank Transfer,Bank Transfer,Jul,Q3,2026
+ORDX00526,1/2/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX207,Poly Viscose,Viscose,410,410,218,10,89380,80442,80442,Match,Delivered,Delivered,Cash,Cash,Jan,Q1,2026
+ORDX00527,3/24/2026,C102,Metro Fabric House,Maharashtra,West,West,TX207,Poly Viscose,Viscose,-213,213,219,2,46647,45714.06,45714.06,Match,Shipped,Shipped,Bank Transfer,Bank Transfer,Mar,Q1,2026
+ORDX00528,1/12/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX201,Organic Cotton,Cotton,160,160,220,8,35200,32384,32384,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Jan,Q1,2026
+ORDX00529,4/7/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX206,Silk Fusion,Silk Blend,551,551,622,0,342722,342722,342722,Match,Delivered,Delivered,Cash,Cash,Apr,Q2,2026
+ORDX00530,1/19/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX202,Printed Cambric,Printed Cotton,231,231,246,3,56826,55121.22,55121.22,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Jan,Q1,2026
+ORDX00531,7/1/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX204,Rayon Flex,Rayon,425,425,247,12,104975,92378,92378,Match,Delivered,Delivered,Cash,Cash,Jul,Q3,2026
+ORDX00532,1/29/2026,C106,Royal Weave Traders,Gujarat,West,West,TX208,Athleisure Knit,Cotton Lycra,372,372,289,12,107508,94607.04,94607.04,Match,Cancelled,Cancelled,Credit,Credit,Jan,Q1,2026
+ORDX00533,11/18/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX201,Organic Cotton,Cotton,552,552,214,2,118128,115765.44,115765.44,Match,Returned,Returned,UPI,UPI,Nov,Q4,2026
+ORDX00534,8/7/2026,C105,Northern Apparel Works,Delhi,North,North,TX202,Printed Cambric,Printed Cotton,238,238,271,12,64498,56758.24,56758.24,Match,Shipped,Shipped,Credit,Credit,Aug,Q3,2026
+ORDX00535,7/27/2026,C109,Odisha Style Mills,Odisha,East,East,TX203,Premium Denim,Denim,548,548,348,5,190704,181168.8,181168.8,Match,Shipped,Shipped,Credit,Credit,Jul,Q3,2026
+ORDX00536,10/22/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX207,Poly Viscose,Viscose,253,253,214,8,54142,49810.64,49810.64,Match,Returned,Returned,Cash,Cash,Oct,Q4,2026
+ORDX00537,5/28/2026,C109,Odisha Style Mills,Odisha,East,East,TX206,Silk Fusion,Silk Blend,142,142,614,3,87188,84572.36,84572.36,Match,Delivered,Delivered,Credit,Credit,May,Q2,2026
+ORDX00538,11/19/2026,C105,Northern Apparel Works,Delhi,,#REF!,TX202,Printed Cambric,Printed Cotton,168,168,271,12,45528,40064.64,40064.64,Match,Shipped,Shipped,UPI,UPI,Nov,Q4,2026
+ORDX00539,4/10/2026,C106,Royal Weave Traders,Gujarat,West,West,TX209,Workwear Poly,Poly Cotton,93,93,191,5,17763,16874.85,16874.85,Match,Processing,Processing,UPI,UPI,Apr,Q2,2026
+ORDX00540,9/23/2026,C103,LoomCraft India,Karnataka,South,South,TX210,Matte Polyester,Polyester,113,113,191,3,21583,20935.51,20935.51,Match,Cancelled,Cancelled,Wallet,Wallet,Sep,Q3,2026
+ORDX00541,10/5/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX208,Athleisure Knit,Cotton Lycra,644,644,304,10,195776,176198.4,176198.4,Match,Delivered,Delivered,UPI,UPI,Oct,Q4,2026
+ORDX00542,1/7/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX204,Rayon Flex,Rayon,171,171,243,5,41553,39475.35,39475.35,Match,Returned,Returned,Bank Transfer,Bank Transfer,Jan,Q1,2026
+ORDX00543,10/15/2026,C109,Odisha Style Mills,Odisha,East,East,TX210,Matte Polyester,Polyester,296,296,175,15,51800,44030,44030,Match,Delivered,Delivered,Credit,Credit,Oct,Q4,2026
+ORDX00544,6/27/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX206,Silk Fusion,Silk Blend,453,453,621,5,281313,267247.35,267247.35,Match,Delivered,Delivered,UPI,UPI,Jun,Q2,2026
+ORDX00545,4/3/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX204,Rayon Flex,Rayon,413,413,251,0,103663,103663,103663,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Apr,Q2,2026
+ORDX00546,2/10/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX209,Workwear Poly,Poly Cotton,204,204,209,2,42636,41783.28,41783.28,Match,Delivered,Delivered,UPI,UPI,Feb,Q1,2026
+ORDX00547,4/21/2026,C105,Northern Apparel Works,Delhi,North,North,TX207,Poly Viscose,Viscose,514,514,214,5,109996,104496.2,104496.2,Match,Delivered,Delivered,UPI,UPI,Apr,Q2,2026
+ORDX00548,10/26/2026,C109,Odisha Style Mills,Odisha,East,East,TX205,Linen Touch,Linen Blend,330,330,403,3,132990,129000.3,129000.3,Match,Delivered,Delivered,Credit,Credit,Oct,Q4,2026
+ORDX00549,4/4/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX202,Printed Cambric,Printed Cotton,338,338,254,12,85852,75549.76,75549.76,Match,Cancelled,Cancelled,Cash,Cash,Apr,Q2,2026
+ORDX00550,6/23/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX208,Athleisure Knit,Cotton Lycra,421,421,285,2,119985,117585.3,117585.3,Match,Shipped,Shipped,Cash,Cash,Jun,Q2,2026
+ORDX00551,7/28/2026,C108,Punjab Cloth Market,Punjab,North,North,TX203,Premium Denim,Denim,107,107,330,8,35310,32485.2,32485.2,Match,Processing,Processing,UPI,UPI,Jul,Q3,2026
+ORDX00552,7/1/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX201,Organic Cotton,Cotton,583,583,227,0,132341,132341,132341,Match,Processing,Processing,Wallet,Wallet,Jul,Q3,2026
+ORDX00553,12/29/2026,C102,Metro Fabric House,Maharashtra,West,West,TX210,Matte Polyester,Polyester,157,157,175,5,27475,26101.25,26101.25,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Dec,Q4,2026
+ORDX00554,12/1/2026,C102,Metro Fabric House,Maharashtra,West,West,TX205,Linen Touch,Linen Blend,126,126,376,2,47376,46428.48,46428.48,Match,Delivered,Delivered,Cash,Cash,Dec,Q4,2026
+ORDX00555,7/24/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX209,Workwear Poly,Poly Cotton,248,248,196,15,48608,41316.8,41316.8,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Jul,Q3,2026
+ORDX00556,11/7/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX201,Organic Cotton,Cotton,37,37,215,10,7955,7159.5,7159.5,Match,Shipped,Shipped,UPI,UPI,Nov,Q4,2026
+ORDX00557,12/7/2026,C106,Royal Weave Traders,Gujarat,West,West,TX206,Silk Fusion,Silk Blend,679,679,604,0,410116,410116,410116,Match,Cancelled,Cancelled,Credit,Credit,Dec,Q4,2026
+ORDX00558,4/19/2026,C107,Coastal Cotton Co,Kerala,South,South,TX203,Premium Denim,Denim,337,337,343,5,115591,109811.45,109811.45,Match,Delivered,Delivered,Wallet,Wallet,Apr,Q2,2026
+ORDX00559,5/20/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX204,Rayon Flex,Rayon,478,478,248,3,118544,114987.68,114987.68,Match,Delivered,Delivered,UPI,UPI,May,Q2,2026
+ORDX00560,2/21/2026,C105,Northern Apparel Works,Delhi,North,North,TX210,Matte Polyester,Polyester,187,187,192,8,35904,33031.68,33031.68,Match,Delivered,Delivered,Wallet,Wallet,Feb,Q1,2026
+ORDX00561,6/26/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX210,Matte Polyester,Polyester,396,396,176,2,69696,68302.08,68302.08,Match,Delivered,Delivered,UPI,UPI,Jun,Q2,2026
+ORDX00562,1/6/2026,C105,Northern Apparel Works,Delhi,North,North,TX209,Workwear Poly,Poly Cotton,143,143,196,3,28028,27187.16,27187.16,Match,Delivered,Delivered,Wallet,Wallet,Jan,Q1,2026
+ORDX00563,3/17/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX207,Poly Viscose,Viscose,505,505,202,15,102010,86708.5,86708.5,Match,Delivered,Delivered,UPI,UPI,Mar,Q1,2026
+ORDX00564,5/21/2026,C105,Northern Apparel Works,Delhi,North,North,TX207,Poly Viscose,Viscose,592,592,214,5,126688,120353.6,120353.6,Match,Delivered,Delivered,Wallet,Wallet,May,Q2,2026
+ORDX00565,4/14/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX207,Poly Viscose,Viscose,631,631,204,2,128724,126149.52,126149.52,Match,Shipped,Shipped,Credit,Credit,Apr,Q2,2026
+ORDX00566,10/16/2026,C106,Royal Weave Traders,Gujarat,West,West,TX206,Silk Fusion,Silk Blend,448,448,624,0,279552,279552,279552,Match,Delivered,Delivered,Credit,Credit,Oct,Q4,2026
+ORDX00567,5/18/2026,C103,LoomCraft India,Karnataka,South,South,TX210,Matte Polyester,Polyester,149,149,171,5,25479,24205.05,24205.05,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,May,Q2,2026
+ORDX00568,9/4/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX207,Poly Viscose,Viscose,593,593,230,10,136390,122751,122751,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Sep,Q3,2026
+ORDX00569,12/29/2026,C108,Punjab Cloth Market,Punjab,North,North,TX208,Athleisure Knit,Cotton Lycra,543,543,294,0,159642,159642,159642,Match,Processing,Processing,UPI,UPI,Dec,Q4,2026
+ORDX00570,11/26/2026,C103,LoomCraft India,Karnataka,South,South,TX203,Premium Denim,Denim,209,209,325,2,67925,66566.5,66566.5,Match,Delivered,Delivered,Credit,Credit,Nov,Q4,2026
+ORDX00571,4/3/2026,C103,LoomCraft India,Karnataka,South,South,TX206,Silk Fusion,Silk Blend,273,273,610,8,166530,153207.6,153207.6,Match,Shipped,Shipped,Wallet,Wallet,Apr,Q2,2026
+ORDX00572,10/9/2026,C107,Coastal Cotton Co,Kerala,South,South,TX208,Athleisure Knit,Cotton Lycra,51,51,292,12,14892,13104.96,13104.96,Match,Delivered,Delivered,UPI,UPI,Oct,Q4,2026
+ORDX00573,11/10/2026,C103,LoomCraft India,Karnataka,South,South,TX207,Poly Viscose,Viscose,137,137,200,8,27400,25208,25208,Match,Delivered,Delivered,UPI,UPI,Nov,Q4,2026
+ORDX00574,9/8/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX209,Workwear Poly,Poly Cotton,421,421,218,12,91778,80764.64,80764.64,Match,Shipped,Shipped,Credit,Credit,Sep,Q3,2026
+ORDX00575,11/6/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX209,Workwear Poly,Poly Cotton,107,107,213,15,22791,19372.35,19372.35,Match,Processing,Processing,UPI,UPI,Nov,Q4,2026
+ORDX00576,12/30/2026,C106,Royal Weave Traders,Gujarat,West,West,TX209,Workwear Poly,Poly Cotton,664,664,196,0,130144,130144,130144,Match,delivered,Delivered,Cash,Cash,Dec,Q4,2026
+ORDX00577,9/28/2026,C103,LoomCraft India,Karnataka,South,South,TX202,Printed Cambric,Printed Cotton,173,173,258,8,44634,41063.28,41063.28,Match,Delivered,Delivered,Credit,Credit,Sep,Q3,2026
+ORDX00578,8/12/2026,C103,LoomCraft India,Karnataka,South,South,TX202,Printed Cambric,Printed Cotton,682,682,250,10,170500,153450,153450,Match,Delivered,Delivered,UPI,UPI,Aug,Q3,2026
+ORDX00579,12/1/2026,C108,Punjab Cloth Market,Punjab,North,North,TX204,Rayon Flex,Rayon,150,150,241,0,36150,36150,36150,Match,Delivered,Delivered,Credit,Credit,Dec,Q4,2026
+ORDX00580,8/9/2026,C106,Royal Weave Traders,Gujarat,West,West,TX204,Rayon Flex,Rayon,669,669,253,2,169257,165871.86,165871.86,Match,Delivered,Delivered,Cash,Cash,Aug,Q3,2026
+ORDX00581,2/28/2026,C106,Royal Weave Traders,Gujarat,West,West,TX208,Athleisure Knit,Cotton Lycra,608,608,306,5,186048,176745.6,176745.6,Match,Delivered,Delivered,Cash,Cash,Feb,Q1,2026
+ORDX00582,3/3/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX202,Printed Cambric,Printed Cotton,290,290,253,0,73370,73370,73370,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Mar,Q1,2026
+ORDX00583,7/26/2026,C102,Metro Fabric House,Maharashtra,West,West,TX208,Athleisure Knit,Cotton Lycra,82,82,283,0,23206,23206,23206,Match,Processing,Processing,Credit,Credit,Jul,Q3,2026
+ORDX00584,11/14/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX205,Linen Touch,Linen Blend,514,514,394,2,202516,198465.68,198465.68,Match,Delivered,Delivered,Wallet,Wallet,Nov,Q4,2026
+ORDX00585,4/2/2026,C103,LoomCraft India,Karnataka,South,South,TX207,Poly Viscose,Viscose,299,299,227,12,67873,59728.24,59728.24,Match,Delivered,Delivered,Credit,Credit,Apr,Q2,2026
+ORDX00586,10/4/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX207,Poly Viscose,Viscose,610,610,203,2,123830,121353.4,121353.4,Match,Processing,Processing,Wallet,Wallet,Oct,Q4,2026
+ORDX00587,11/28/2026,C106,Royal Weave Traders,Gujarat,West,West,TX210,Matte Polyester,Polyester,479,479,180,8,86220,79322.4,79322.4,Match,Delivered,Delivered,Cash,Cash,Nov,Q4,2026
+ORDX00588,8/25/2026,C109,Odisha Style Mills,Odisha,East,East,TX208,Athleisure Knit,Cotton Lycra,-420,420,309,10,129780,116802,116802,Match,Cancelled,Cancelled,Bank Transfer,Bank Transfer,Aug,Q3,2026
+ORDX00589,8/6/2026,C111,Hyderabad Fashion Line,Telangana,South,South,TX201,Organic Cotton,Cotton,548,548,221,2,121108,118685.84,118685.84,Match,Delivered,Delivered,Credit,Credit,Aug,Q3,2026
+ORDX00590,8/27/2026,C101,Vardhan Textiles,Tamil Nadu,South,South,TX206,Silk Fusion,Silk Blend,229,229,597,10,136713,123041.7,123041.7,Match,Shipped,Shipped,UPI,UPI,Aug,Q3,2026
+ORDX00591,4/20/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX205,Linen Touch,Linen Blend,620,620,395,12,244900,215512,215512,Match,processing,Processing,Bank Transfer,Bank Transfer,Apr,Q2,2026
+ORDX00592,11/22/2026,C107,Coastal Cotton Co,Kerala,South,South,TX207,Poly Viscose,Viscose,374,374,204,2,76296,74770.08,74770.08,Match,Shipped,Shipped,UPI,UPI,Nov,Q4,2026
+ORDX00593,9/14/2026,C112,UP Garment Source,Uttar Pradesh,North,North,TX208,Athleisure Knit,Cotton Lycra,609,609,285,10,173565,156208.5,156208.5,Match,Delivered,Delivered,Cash,Cash,Sep,Q3,2026
+ORDX00594,10/29/2026,C105,Northern Apparel Works,Delhi,North,North,TX208,Athleisure Knit,Cotton Lycra,251,251,293,15,73543,62511.55,62511.55,Match,Cancelled,Cancelled,Wallet,Wallet,Oct,Q4,2026
+ORDX00595,3/18/2026,C107,Coastal Cotton Co,Kerala,South,South,TX208,Athleisure Knit,Cotton Lycra,264,264,281,2,74184,72700.32,72700.32,Match,Shipped,Shipped,UPI,UPI,Mar,Q1,2026
+ORDX00596,6/25/2026,C106,Royal Weave Traders,Gujarat,West,West,TX206,Silk Fusion,Silk Blend,61,61,606,5,36966,35117.7,35117.7,Match,Delivered,Delivered,Cash,Cash,Jun,Q2,2026
+ORDX00597,12/31/2026,C110,Jaipur Fashion Yard,Rajasthan,North,North,TX203,Premium Denim,Denim,385,385,340,12,130900,115192,115192,Match,Delivered,Delivered,UPI,UPI,Dec,Q4,2026
+ORDX00598,7/6/2026,C103,LoomCraft India,Karnataka,South,South,TX204,Rayon Flex,Rayon,533,533,235,10,125255,112729.5,112729.5,Match,Delivered,Delivered,Bank Transfer,Bank Transfer,Jul,Q3,2026
+ORDX00599,3/27/2026,C105,Northern Apparel Works,Delhi,North,North,TX203,Premium Denim,Denim,200,200,338,12,67600,59488,59488,Match,Cancelled,Cancelled,UPI,UPI,Mar,Q1,2026
+ORDX00600,7/26/2026,C104,Eastern Stitch Hub,West Bengal,East,East,TX207,Poly Viscose,Viscose,269,269,202,2,54338,53251.24,53251.24,Match,Cancelled,Cancelled,Wallet,Wallet,Jul,Q3,2026
