@@ -71,40 +71,40 @@ SELECT
      / LAG(SUM(Sales_Amount_Expected)) OVER (ORDER BY Order_Year, Order_Month)) * 100 AS Growth_Percentage 
 FROM Textile 
 GROUP BY Order_Year, Order_Month 
-ORDER BY Order_Year, Order_Month;
+ORDER BY Order_Year, Order_Month; ```
 
 
 📈 Key Insights
-Regional Performance: The South region leads with ₹2.22 Cr (~37% of total sales), followed by the North region (₹1.87 Cr)[cite: 1]. East and West remain under-penetrated[cite: 1].
+Regional Performance: The South region leads with ₹2.22 Cr (~37% of total sales), followed by the North region (₹1.87 Cr)[cite: 1]. East and West remain under-penetrated.
 
-Product Drivers: Silk Fusion generated ₹1.31 Cr alone, outselling the second-ranked product by nearly 2x[cite: 1].
+Product Drivers: Silk Fusion generated ₹1.31 Cr alone, outselling the second-ranked product by nearly 2x.
 
-Fabric Demand: Cotton and Printed Cotton drive the highest volume in total meters sold, despite lower unit price points[cite: 1].
+Fabric Demand: Cotton and Printed Cotton drive the highest volume in total meters sold, despite lower unit price points.
 
-Top Customers: The top 3 accounts (Vardhan Textiles, Royal Weave Traders, LoomCraft India) contribute >₹1.78 Cr (~30% of overall revenue)[cite: 1].
+Top Customers: The top 3 accounts (Vardhan Textiles, Royal Weave Traders, LoomCraft India) contribute >₹1.78 Cr (~30% of overall revenue).
 
-Seasonality: Revenue peaks in January and October, with the lowest performance occurring in November[cite: 1].
+Seasonality: Revenue peaks in January and October, with the lowest performance occurring in November.
 
-Operational Risk: Cancelled and returned orders account for 12.5% of all orders, exceeding typical industry benchmarks (5–8%)[cite: 1].
+Operational Risk: Cancelled and returned orders account for 12.5% of all orders, exceeding typical industry benchmarks (5–8%).
 
 💡 Recommendations
-Reduce Return Rates: Audit pre-cleanup order statuses (Order_Status_Raw) to resolve root causes of cancellations and returns[cite: 1].
+Reduce Return Rates: Audit pre-cleanup order statuses (Order_Status_Raw) to resolve root causes of cancellations and returns.
 
-Geographic Expansion: Run targeted marketing campaigns in East (₹83.6 L) and West (₹1.08 Cr) regions to balance regional sales[cite: 1].
+Geographic Expansion: Run targeted marketing campaigns in East (₹83.6 L) and West (₹1.08 Cr) regions to balance regional.
 
-Upselling & Product Bundling: Bundle high-demand volume fabrics (Cotton) with high-margin fabrics (Silk Fusion, Linen Touch) to increase Average Order Value[cite: 1].   
+Upselling & Product Bundling: Bundle high-demand volume fabrics (Cotton) with high-margin fabrics (Silk Fusion, Linen Touch) to increase Average Order Value.   
 
-ETL Automation: Migrate Excel cleaning rules (case mapping, negative quantity fixes) directly into the SQL ETL pipeline[cite: 1].   
+ETL Automation: Migrate Excel cleaning rules (case mapping, negative quantity fixes) directly into the SQL ETL pipeline.   
 
 🚀 Setup & Usage Instructions
 Database Import:   
 
-Import Sales_cleaned.csv into SQL Server[cite: 1].   
+Import Sales_cleaned.csv into SQL Server.   
 
-Run the script in SQLQueries.sql to execute queries and create the Cleaned_Textile_Sales_Data view[cite: 1].   
+Run the script in SQLQueries.sql to execute queries and create the Cleaned_Textile_Sales_Data view.   
 
 Power BI Dashboard:   
 
-Open Textile_PowerBI.pbit in Power BI Desktop[cite: 1].   
+Open Textile_PowerBI.pbit in Power BI Desktop.   
 
-Connect the template to your SQL database view to populate the interactive visuals[cite: 1].
+Connect the template to your SQL database view to populate the interactive visuals.
