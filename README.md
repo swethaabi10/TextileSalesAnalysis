@@ -32,10 +32,15 @@ Analyzing **600 orders** across 12 Indian states, 10 products, and 12 major cust
 ## 📂 Repository Structure
 
 ├── Sales_cleaned.csv                             # Cleaned & audit-ready dataset (600 rows, 25 columns)
+
 ├── SQLQueries.sql                                # T-SQL analysis queries, aggregations, & view creation
+
 ├── Textile_PowerBI.pbit                          # Power BI interactive dashboard template
+
 ├── SQL Usecase.pdf                               # Analysis requirements and query specifications
+
 ├── Textile_Sales_Project_Documentation.pdf       # End-to-end project documentation summary
+
 └── README.md                                     # Project overview and documentation
 
 
@@ -48,34 +53,22 @@ To preserve data auditability, original raw fields (`*_Raw`) were retained along
 
 * **Text Standardizing:** Normalized casing across `Order_Status` (e.g., `delivered` to `Delivered`) and consolidated 10 inconsistent raw payment strings into 5 standardized categories (`UPI`, `Credit`, `Bank Transfer`, `Cash`, `Wallet`).
 * **Missing Value Imputation:** Mapped 5 missing/error `Region` entries using corresponding `State` attributes.
-* **Anomaly Corrections:** Replaced negative entries in `Quantity_Meters` with positive absolute values[cite: 1].
-* **Sales Reconciliation:** Created a `Sales_Match` validation flag using `Gross Amount - Discount = Expected Sales`[cite: 1].
+* **Anomaly Corrections:** Replaced negative entries in `Quantity_Meters` with positive absolute values.
+* **Sales Reconciliation:** Created a `Sales_Match` validation flag using `Gross Amount - Discount = Expected Sales`.
 
 ---
 
 ## 📊 SQL Analysis & Core Queries (T-SQL)
 
-Analysis was executed on SQL Server against `[Textile_Sales].[dbo].[Textile]`[cite: 1]. Key query categories include:
+Analysis was executed on SQL Server against `[Textile_Sales].[dbo].[Textile]`. Key query categories include:
 
-* **Grouped Aggregates:** Total sales and order volumes broken down by Region, State, Fabric Type, Customer, and Product[cite: 1].
-* **Window Functions:** Ranked top customers via `RANK()`, ordered product quantity via `DENSE_RANK()`, and calculated Month-over-Month growth via `LAG()`[cite: 1].
-* **Reporting Layer:** Built the reusable `Cleaned_Textile_Sales_Data` view to ensure downstream BI tools always pull validated records[cite: 1].
-
-### Sample Query: Month-over-Month Sales Growth
-```sql
-SELECT 
-    Order_Year, 
-    Order_Month, 
-    SUM(Sales_Amount_Expected) AS Monthly_Sales,
-    ((SUM(Sales_Amount_Expected) - LAG(SUM(Sales_Amount_Expected)) OVER (ORDER BY Order_Year, Order_Month)) 
-     / LAG(SUM(Sales_Amount_Expected)) OVER (ORDER BY Order_Year, Order_Month)) * 100 AS Growth_Percentage 
-FROM Textile 
-GROUP BY Order_Year, Order_Month 
-ORDER BY Order_Year, Order_Month; ```
+* **Grouped Aggregates:** Total sales and order volumes broken down by Region, State, Fabric Type, Customer, and Product.
+* **Window Functions:** Ranked top customers via `RANK()`, ordered product quantity via `DENSE_RANK()`, and calculated Month-over-Month growth via `LAG()`.
+* **Reporting Layer:** Built the reusable `Cleaned_Textile_Sales_Data` view to ensure downstream BI tools always pull validated records.
 
 
 📈 Key Insights
-Regional Performance: The South region leads with ₹2.22 Cr (~37% of total sales), followed by the North region (₹1.87 Cr)[cite: 1]. East and West remain under-penetrated.
+Regional Performance: The South region leads with ₹2.22 Cr (~37% of total sales), followed by the North region (₹1.87 Cr). East and West remain under-penetrated.
 
 Product Drivers: Silk Fusion generated ₹1.31 Cr alone, outselling the second-ranked product by nearly 2x.
 
